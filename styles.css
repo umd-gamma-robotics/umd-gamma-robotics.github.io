@@ -62,9 +62,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 #profile { padding: 106px 30px 48px; }
 .home-profile { display: flex; align-items: center; }
-.home-copy { max-width: 640px; }
-.home-copy h1 { margin-bottom: 12px; font-size: 3.05em; font-weight: 600; letter-spacing: .2px; line-height: .98em; }
-.home-copy p { margin-bottom: 20px; }
+.home-copy { width: 100%; }
+.home-copy h1 { margin-bottom: 12px; font-size: 3.05em; font-weight: 600; letter-spacing: .2px; line-height: 1.05em; }
+.home-copy p { max-width: 680px; margin-bottom: 20px; }
 .home-copy .lead { color: var(--black); font-size: 1.12em; }
 .gamma-blue { color: var(--gamma-blue); font-weight: 600; }
 .umd-red { color: var(--umd-red); font-weight: 600; }
