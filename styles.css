@@ -68,8 +68,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 .home-copy .lead { color: var(--black); font-size: 1.12em; }
 .gamma-blue { color: var(--gamma-blue); font-weight: 600; }
 .umd-red { color: var(--umd-red); font-weight: 600; }
-.home-links { margin-top: 27px; color: #aaa; font-size: .86em; }
-.home-links a { font-weight: 600; }
+.home-links { display: flex; margin-top: 24px; flex-wrap: wrap; gap: 10px; align-items: center; }
+.follow-label { color: #888; font-size: .9em; }
+.social-link { display: inline-flex; padding: 6px 12px 6px 10px; border: 1px solid var(--line); border-radius: 999px; color: var(--black); font-size: .9em; font-weight: 600; align-items: center; gap: 8px; transition: border-color .2s ease, background .2s ease; }
+.social-link:hover { border-color: #bbb; background: #f6f6f4; text-decoration: none; }
+.social-link svg { width: auto; height: 16px; }
 
 .gallery { position: relative; margin: 0 30px 48px; overflow: hidden; border-radius: 6px; background: #eceeea; aspect-ratio: 16 / 9; }
 .slides, .slide { position: absolute; inset: 0; margin: 0; }
