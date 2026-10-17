@@ -70,4 +70,52 @@ if (publicationList) {
         b.year - a.year || b.position - a.position || a.originalIndex - b.originalIndex
     )
     .forEach(({ publication }) => publicationList.append(publication));
+
+  const filter = document.querySelector('.publication-filter');
+
+  if (filter) {
+    const topicLinks = Array.from(filter.querySelectorAll('[data-topic]'));
+    const viewLinks = Array.from(filter.querySelectorAll('[data-view]'));
+    const topicList = document.createElement('div');
+    topicList.className = 'publication-topic-list';
+    topicList.hidden = true;
+
+    topicLinks.forEach((link) => {
+      const key = link.dataset.topic;
+      const rows = Array.from(publicationList.children).filter((row) =>
+        (row.dataset.topics ?? '').split(' ').includes(key)
+      );
+      const section = document.createElement('section');
+      section.className = 'publication-topic';
+      section.id = `topic-${key}`;
+      const heading = document.createElement('h2');
+      heading.textContent = link.textContent;
+      const list = document.createElement('div');
+      list.className = 'publication-list';
+      rows.forEach((row) => list.append(row.cloneNode(true)));
+      section.append(heading, list);
+      topicList.append(section);
+    });
+
+    publicationList.after(topicList);
+
+    const showView = (view) => {
+      publicationList.hidden = view !== 'date';
+      topicList.hidden = view !== 'topic';
+      viewLinks.forEach((link) => link.classList.toggle('active', link.dataset.view === view));
+    };
+
+    const applyHash = () => {
+      const hash = window.location.hash.slice(1);
+      if (hash.startsWith('topic')) {
+        showView('topic');
+        document.getElementById(hash)?.scrollIntoView();
+      } else {
+        showView('date');
+      }
+    };
+
+    window.addEventListener('hashchange', applyHash);
+    applyHash();
+  }
 }
