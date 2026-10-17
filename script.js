@@ -15,6 +15,43 @@ if (menuButton && navigation) {
   });
 }
 
+const slideshow = document.querySelector('[data-slideshow]');
+
+if (slideshow) {
+  // People photos keep their places (newest first); research pictures are shuffled among their slots.
+  const shuffleSlots = Array.from(slideshow.querySelectorAll('[data-shuffle]'));
+  const shuffled = shuffleSlots.map((slide) => slide.cloneNode(true));
+  for (let i = shuffled.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  shuffleSlots.forEach((slot, i) => slot.replaceWith(shuffled[i]));
+
+  const slides = Array.from(slideshow.querySelectorAll('.slide'));
+  const dotsContainer = slideshow.querySelector('.slide-dots');
+  const dots = slides.map(() => dotsContainer.appendChild(document.createElement('span')));
+  let current = 0;
+  let timer = null;
+
+  const show = (index) => {
+    current = (index + slides.length) % slides.length;
+    slides.forEach((slide, i) => slide.classList.toggle('is-active', i === current));
+    dots.forEach((dot, i) => dot.classList.toggle('is-active', i === current));
+    slides[(current + 1) % slides.length].querySelector('img')?.setAttribute('loading', 'eager');
+  };
+
+  const stop = () => window.clearInterval(timer);
+  const start = () => {
+    stop();
+    timer = window.setInterval(() => show(current + 1), 4000);
+  };
+
+  document.addEventListener('visibilitychange', () => (document.hidden ? stop() : start()));
+
+  show(0);
+  start();
+}
+
 document.querySelectorAll('[data-year]').forEach((element) => {
   element.textContent = new Date().getFullYear();
 });
