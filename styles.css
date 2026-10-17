@@ -194,6 +194,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .faculty h3 { margin-bottom: 2px; font-size: 1.35em; }.faculty p { margin-bottom: 11px; font-size: .9em; }.faculty small { font-size: .85em; }
 .people-grid { display: grid; grid-template-columns: repeat(4, 1fr); column-gap: 28px; row-gap: 38px; }
 .people-grid article h3 { margin-top: 8px; font-size: 1.08em; line-height: 1.18; text-align: center; }
+.person-meta { margin-top: 4px; color: #888; font-size: .82em; line-height: 1.35; text-align: center; }
 .people-grid .portrait { width: 100%; height: auto; aspect-ratio: 1; }
 .portrait-photo { overflow: hidden; background: #ddd; }
 .portrait-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 42%; }
