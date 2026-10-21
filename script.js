@@ -48,11 +48,34 @@ const cardVideos = Array.from(document.querySelectorAll('[data-card-video]'));
 if (cardVideos.length) {
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  const playVideo = (video) => {
+    video.muted = true;
+    video.defaultMuted = true;
+    video.playsInline = true;
+    const playback = video.play();
+    if (playback) playback.catch(() => {});
+  };
+
+  const visibleVideos = () => cardVideos.filter((video) => {
+    const bounds = video.getBoundingClientRect();
+    return bounds.top < window.innerHeight && bounds.bottom > 0;
+  });
+
+  const playVisibleVideos = () => {
+    if (!document.hidden) visibleVideos().forEach(playVideo);
+  };
+
+  cardVideos.forEach((video) => {
+    video.muted = true;
+    video.defaultMuted = true;
+    video.playsInline = true;
+  });
+
   if (!reducedMotion && 'IntersectionObserver' in window) {
     const videoObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach(({ isIntersecting, target }) => {
-          if (isIntersecting && !document.hidden) target.play().catch(() => {});
+          if (isIntersecting && !document.hidden) playVideo(target);
           else target.pause();
         });
       },
@@ -60,11 +83,24 @@ if (cardVideos.length) {
     );
 
     cardVideos.forEach((video) => videoObserver.observe(video));
-    document.addEventListener('visibilitychange', () => {
-      if (document.hidden) cardVideos.forEach((video) => video.pause());
-      else cardVideos.filter((video) => video.getBoundingClientRect().top < window.innerHeight && video.getBoundingClientRect().bottom > 0).forEach((video) => video.play().catch(() => {}));
-    });
+  } else if (!reducedMotion) {
+    playVisibleVideos();
   }
+
+  if (reducedMotion) cardVideos.forEach((video) => {
+    video.removeAttribute('autoplay');
+    video.pause();
+  });
+  else {
+    playVisibleVideos();
+    window.addEventListener('pageshow', playVisibleVideos);
+    window.addEventListener('touchstart', playVisibleVideos, { once: true, passive: true });
+  }
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) cardVideos.forEach((video) => video.pause());
+    else if (!reducedMotion) playVisibleVideos();
+  });
 }
 
 document.querySelectorAll('[data-year]').forEach((element) => {
