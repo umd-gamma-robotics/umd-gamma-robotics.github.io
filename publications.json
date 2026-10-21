@@ -1,0 +1,1806 @@
+[
+  {
+    "title": "OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness",
+    "authors": "Phuc D.A. Nguyen, Anh N. Nhu, Ming C. Lin",
+    "venue": "CVPR 2026",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://openvo.github.io/assets/teaser.png", "alt": "OpenVO estimating real-world-scale ego-motion from monocular driving video"},
+    "links": {"Webpage": "https://openvo.github.io/", "Paper": "https://arxiv.org/abs/2602.19035", "Code": "https://github.com/PhucNDA/OpenVO"}
+  },
+  {
+    "title": "Deploying Foundation Models for Embodied Navigation",
+    "authors": "Vishnu Sashank Dorbala, Dinesh Manocha",
+    "venue": "ISRR 2026",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma1/isrr_taxonomy.png", "alt": "Taxonomy of foundation-model deployment challenges for embodied navigation"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/embodied/fmdeploy", "Paper": "https://gamma.umd.edu/researchdirections/embodied/isrr26.pdf"}
+  },
+  {
+    "title": "TAP: Transit Aware Planning for Portable Target Finding on Learning-Based Embodied Agents",
+    "authors": "Vishnu Sashank Dorbala, Dinesh Manocha",
+    "venue": "arXiv 2026",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma1/pobjectnav2_cover.png", "alt": "Portable-target navigation with dynamic object maps"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/embodied/pobjectnav-v2", "Paper": "https://gamma.umd.edu/researchdirections/embodied/tapdom.pdf"}
+  },
+  {
+    "title": "MorFiC: Fixing Value Miscalibration for Zero-Shot Quadruped Transfer",
+    "authors": "Prakhar Mishra, Amir Hossain Raj, Xuesu Xiao, Dinesh Manocha",
+    "venue": "CoRL 2026",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://prakharmishra27.github.io/MorFiC/media/figures/morphology-collage.png", "alt": "Multiple quadruped robot morphologies used for zero-shot transfer"},
+    "links": {"Webpage": "https://prakharmishra27.github.io/MorFiC/", "Paper": "https://arxiv.org/abs/2603.14554", "Code": "https://github.com/prakharmishra27/morfic-rl"}
+  },
+  {
+    "title": "SonoWorld: From One Image to a 3D Audio-Visual Scene",
+    "authors": "Derong Jin, Xiyi Chen, Ming C. Lin, Ruohan Gao",
+    "venue": "CVPR 2026",
+    "topics": ["vision"],
+    "thumbnail": {"src": "assets/papers/sonoworld.jpg"},
+    "links": {"Webpage": "https://humathe.github.io/sonoworld/", "Paper": "https://arxiv.org/abs/2603.28757", "Code": "https://github.com/HuMathe/sonoworld"}
+  },
+  {
+    "title": "PanoSeg3R: Feed-Forward 3D Semantic Segmentation for Panoramic Images with an Automatic Data Curation Pipeline",
+    "authors": "Heechan Yoon, Dongki Jung, Phuc Nguyen, Ming C. Lin, Dinesh Manocha",
+    "venue": "arXiv 2026",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/panoseg3r.png"},
+    "links": {"Webpage": "https://harryyoon777.github.io/PanoSeg3R/", "Paper": "https://arxiv.org/abs/2609.22687"}
+  },
+  {
+    "title": "PanoPlane: Plane-Aware Panoramic Completion for Sparse-View Indoor 3D Gaussian Splatting",
+    "authors": "Adil Qureshi, Dongki Jung, Jaehoon Choi, Dinesh Manocha",
+    "venue": "arXiv 2026",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/panoplane.png"},
+    "links": {"Webpage": "https://arxiv.org/html/2605.14135", "Paper": "https://arxiv.org/abs/2605.14135"}
+  },
+  {
+    "title": "VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision",
+    "authors": "Gershom Seneviratne, Yohan Abeysinghe, Jianyu An, Vaibhav Shende, Rahul Kumar, Dinesh Manocha",
+    "venue": "arXiv 2026",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://yohanabeysinghe.github.io/vega_website/static/images/vega/all_scenes.png"},
+    "links": {"Webpage": "https://yohanabeysinghe.github.io/vega_website/", "Paper": "https://arxiv.org/abs/2606.18426"}
+  },
+  {
+    "title": "SLAT-Phys: Fast Material Property Field Prediction from Structured 3D Latents",
+    "authors": "Rocktim Jyoti Das, Dinesh Manocha",
+    "venue": "arXiv 2026",
+    "topics": ["physics"],
+    "thumbnail": {"src": "https://rocktimjyotidas.github.io/projects/SLAT-Phys/media/figures/Pipeline.png"},
+    "links": {"Webpage": "https://rocktimjyotidas.github.io/projects/SLAT-Phys/", "Paper": "https://arxiv.org/pdf/2603.23973"}
+  },
+  {
+    "title": "ViLAM: Distilling Vision–Language Reasoning into Attention Maps for Social Robot Navigation",
+    "authors": "Mohamed Elnoor, Kasun Weerakoon, Gershom Seneviratne, Jing Liang, Vignesh Rajagopal, Dinesh Manocha",
+    "venue": "arXiv 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/vilad-cover.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/vilad", "Paper": "https://arxiv.org/pdf/2503.09820"}
+  },
+  {
+    "title": "Wid3R: Wide Field-of-View 3D Reconstruction via Camera Model Conditioning",
+    "authors": "Dongki Jung, Jaehoon Choi, Adil Qureshi, Somi Jeong, Dinesh Manocha, Suyong Yeon",
+    "venue": "ECCV 2026",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/Wid3R1.png"},
+    "links": {"Webpage": "https://jdk9405.github.io/Wid3R/", "Paper": "https://arxiv.org/abs/2602.05321"}
+  },
+  {
+    "title": "SyncTrack4D: Cross-Video Motion Alignment and Video Synchronization with Multi-Video 4D Gaussian Splatting",
+    "authors": "Yonghan Lee, Tsung-Wei Huang, Shiv Gehlot, Jaehoon Choi, Guan-Ming Su, Dinesh Manocha",
+    "venue": "CVPR Findings 2026",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://arxiv.org/html/2512.04315v1/intro_final.png"},
+    "links": {"Webpage": "https://openaccess.thecvf.com/content/CVPR2026F/html/Lee_SyncTrack4D_Cross-Video_Motion_Alignment_and_Video_Synchronization_with_Multi-Video_4D_CVPRF_2026_paper.html", "Paper": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Lee_SyncTrack4D_Cross-Video_Motion_Alignment_and_Video_Synchronization_with_Multi-Video_4D_CVPRF_2026_paper.pdf"}
+  },
+  {
+    "title": "MASS: Motion-Aware Spatial–temporal Grounding for Physics Reasoning and Comprehension in Vision-Language Models",
+    "authors": "Xiyang Wu, Zongxia Li, Jihui Jin, Gouthaman KV, Vishnu Raj, Nilotpal Sinha, Jingxi Chen, Fan Du, Dinesh Manocha",
+    "venue": "CVPR Findings 2026",
+    "topics": ["physics"],
+    "thumbnail": {"src": "https://arxiv.org/html/2511.18373v2/teaser.png"},
+    "links": {"Webpage": "https://openaccess.thecvf.com/content/CVPR2026F/html/Wu_MASS_Motion-Aware_Spatial-temporal_Grounding_for_Physics_Reasoning_and_Comprehension_in_CVPRF_2026_paper.html", "Paper": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Wu_MASS_Motion-Aware_Spatial-temporal_Grounding_for_Physics_Reasoning_and_Comprehension_in_CVPRF_2026_paper.pdf"}
+  },
+  {
+    "title": "Splatblox: Traversability-Aware Gaussian Splatting for Outdoor Robot Navigation",
+    "authors": "Samarth Chopra, Jing Liang, Gershom Seneviratne, Yonghan Lee, Jaehoon Choi, Jianyu An, Stephen Cheng, Dinesh Manocha",
+    "venue": "ICRA 2026",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://splatblox.github.io/static/images/overview_compressed-1.png"},
+    "links": {"Webpage": "https://splatblox.github.io/", "Paper": "https://arxiv.org/abs/2511.18525"}
+  },
+  {
+    "title": "Inst4DGS: Instance-Decomposed 4D Gaussian Splatting with Multi-Video Label Permutation Learning",
+    "authors": "Yonghan Lee, Dinesh Manocha",
+    "venue": "arXiv 2026",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://arxiv.org/html/2603.18402v1/sample_decomposition_v3.png"},
+    "links": {"Webpage": "https://arxiv.org/html/2603.18402", "Paper": "https://arxiv.org/abs/2603.18402"}
+  },
+  {
+    "title": "MoRe: Monocular Geometry Refinement via Graph Optimization for Cross-View Consistency",
+    "authors": "Dongki Jung, Jaehoon Choi, Yonghan Lee, Sungmin Eum, Heesung Kwon, Dinesh Manocha",
+    "venue": "WACV 2026",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/more_1.png"},
+    "links": {"Webpage": "https://openaccess.thecvf.com/content/WACV2026/html/Jung_MoRe_Monocular_Geometry_Refinement_via_Graph_Optimization_for_Cross-View_Consistency_WACV_2026_paper.html", "Paper": "https://arxiv.org/abs/2510.07119"}
+  },
+  {
+    "title": "UAV4D: Dynamic Neural Rendering of Human-Centric UAV Imagery using Gaussian Splatting",
+    "authors": "Jaehoon Choi, Dongki Jung, Christopher Maxey, Yonghan Lee, Sungmin Eum, Dinesh Manocha, Heesung Kwon",
+    "venue": "AAAI 2026",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/uav4d.png"},
+    "links": {"Webpage": "https://uav4d.github.io/", "Paper": "https://arxiv.org/abs/2506.05011"}
+  },
+  {
+    "title": "UAVTwin: Neural Digital Twins for UAVs using Gaussian Splatting",
+    "authors": "Jaehoon Choi, Dongki Jung, Yonghan Lee, Sungmin Eum, Dinesh Manocha, Heesung Kwon",
+    "venue": "AAAI 2026",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/uavtwin.png"},
+    "links": {"Webpage": "https://uavgsim.github.io/", "Paper": "https://arxiv.org/abs/2504.02158"}
+  },
+  {
+    "title": "Act on What You See: Unlocking Safe Social Navigation in Vision-Language-Action Models",
+    "authors": "Qingzi Wang, Xiyang Wu, Guangyao Shi, Dianwei Chen, Xianfeng Yang, Dinesh Manocha",
+    "venue": "arXiv 2026",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://arxiv.org/html/2606.10495v1/figures/method_overview2.png"},
+    "links": {"Webpage": "https://ciel-dott.github.io/salsa/", "Paper": "https://arxiv.org/abs/2606.10495"}
+  },
+  {
+    "title": "SABER: A Stealthy Agentic Black-Box Attack Framework for Vision-Language-Action Models",
+    "authors": "Xiyang Wu, Guangyao Shi, Qingzi Wang, Zongxia Li, Amrit Singh Bedi, Dinesh Manocha",
+    "venue": "IROS 2026",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://wuxiyang1996.github.io/SABER_page/static/images/teaser.png"},
+    "links": {"Webpage": "https://wuxiyang1996.github.io/SABER_page/", "Paper": "https://arxiv.org/abs/2603.24935"}
+  },
+  {
+    "title": "TransCurriculum: Multi-Dimensional Curriculum Learning for Fast & Stable Locomotion",
+    "authors": "Prakhar Mishra, Amir Hossain Raj, Xuesu Xiao, Dinesh Manocha",
+    "venue": "IROS 2026",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://prakharmishra27.github.io/TransCurriculum/static/images/transcurriculumdia.png"},
+    "links": {"Webpage": "https://prakharmishra27.github.io/TransCurriculum/", "Paper": "https://arxiv.org/abs/2603.14156"}
+  },
+  {
+    "title": "FALCON: Future-Aware Learning with Contextual Object-Centric Pretraining for UAV Action Recognition",
+    "authors": "Ruiqi Xian, Xiyang Wu, Tianrui Guan, Xijun Wang, Boqing Gong, Dinesh Manocha",
+    "venue": "IROS 2026",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "https://arxiv.org/html/2409.18300v2/falcon_final_pipeline.png"},
+    "links": {"Webpage": "https://arxiv.org/html/2409.18300", "Paper": "https://arxiv.org/abs/2409.18300"}
+  },
+  {
+    "title": "Learning Multi-Robot Coordination through Locality-Based Factorized Multi-Agent Actor-Critic Algorithm",
+    "authors": "Chak Lam Shek, Amrit Singh Bedi, Anjon Basak, Ellen Novoseller, Nicholas Waytowich, Priya Narayanan, Dinesh Manocha, Pratap Tokekar",
+    "venue": "IROS 2026",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://arxiv.org/html/2503.18816v2/LOFAC.png"},
+    "links": {"Webpage": "https://arxiv.org/html/2503.18816", "Paper": "https://arxiv.org/abs/2503.18816"}
+  },
+  {
+    "title": "PhysGS: Bayesian-Inferred Gaussian Splatting for Physical Property Estimation",
+    "authors": "Samarth Chopra, Jing Liang, Gershom Seneviratne, Dinesh Manocha",
+    "venue": "CVPR 2026",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://samchopra2003.github.io/physgs/static/images/overview_enhanced.png"},
+    "links": {"Webpage": "https://samchopra2003.github.io/physgs/", "Paper": "https://arxiv.org/abs/2511.18570"}
+  },
+  {
+    "title": "RPG360: Robust 360 Depth Estimation with Perspective Foundation Models and Graph Optimization",
+    "authors": "Dongki Jung, Jaehoon Choi, Yonghan Lee, Dinesh Manocha",
+    "venue": "NeurIPS 2025",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/rpg360_1.png"},
+    "links": {"Webpage": "https://jdk9405.github.io/RPG360/", "Paper": "https://arxiv.org/abs/2509.23991"}
+  },
+  {
+    "title": "IM360: Large-scale Indoor Mapping with 360 Cameras",
+    "authors": "Dongki Jung, Jaehoon Choi, Yonghan Lee, Dinesh Manocha",
+    "venue": "ICCV 2025",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/im360_1.png"},
+    "links": {"Webpage": "https://jdk9405.github.io/IM360/", "Paper": "https://arxiv.org/abs/2502.12545"}
+  },
+  {
+    "title": "TK-Planes: Tiered K-Planes with High Dimensional Feature Vectors for Dynamic UAV-based Scenes",
+    "authors": "Christopher Maxey, Jaehoon Choi, Yonghan Lee, Hyungtae Lee, Dinesh Manocha, Heesung Kwon",
+    "venue": "IROS 2025",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "https://jh-choi.github.io/image/intro_TKPlanes.jpg"},
+    "links": {"Webpage": "https://ieeexplore.ieee.org/document/11246343/", "Paper": "https://arxiv.org/abs/2405.02762"}
+  },
+  {
+    "title": "EDM: Equirectangular Projection-Oriented Dense Kernelized Feature Matching",
+    "authors": "Dongki Jung, Jaehoon Choi, Yonghan Lee, Somi Jeong, Taejae Lee, Dinesh Manocha, Suyong Yeon",
+    "venue": "CVPR 2025",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/edm.png"},
+    "links": {"Webpage": "https://jdk9405.github.io/EDM/", "Paper": "https://arxiv.org/abs/2502.20685"}
+  },
+  {
+    "title": "Confidence-Controlled Exploration (CCE): Efficient Sparse-Reward Policy Learning for Robot Navigation",
+    "authors": "Bhrij Patel, Kasun Weerakoon, Wesley A. Suttle, Alec Koppel, Brian M. Sadler, Tianyi Zhou, Dinesh Manocha, Amrit Singh Bedi",
+    "venue": "IROS 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.umd.edu/img/researchdirections/crowdmultiagent/cce-cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/adanav", "Paper": "https://ieeexplore.ieee.org/abstract/document/11246149"}
+  },
+  {
+    "title": "AutoSpatial: Visual-Language Reasoning for Social Robot Navigation through Efficient Spatial Reasoning Learning",
+    "authors": "Yangzhe Kong, Daeun Song, Jing Liang, Dinesh Manocha, Ziyu Yao, Xuesu Xiao",
+    "venue": "IROS 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/autospatial_cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/autospatial", "Paper": "https://arxiv.org/abs/2503.07557"}
+  },
+  {
+    "title": "CROSS-GAiT: Cross-Attention-Based Multimodal Representation Fusion for Parametric Gait Adaptation in Complex Terrains",
+    "authors": "Gershom Seneviratne, Kasun Weerakoon, Mohamed Elnoor, Vignesh Rajgopal, Harshavarthan Varatharajan, Mohamed Khalid M Jaffar, Jason L. Pusey, Dinesh Manocha",
+    "venue": "IROS 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/cross-gait-cover.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/cross-gait", "Paper": "https://arxiv.org/pdf/2409.17262"}
+  },
+  {
+    "title": "ET-Former: Efficient Triplane Deformable Attention for 3D Semantic Scene Completion From Monocular Camera",
+    "authors": "Jing Liang, He Yin, XueweiTony Qi, Jong Jin Park, Min Sun, Rajasimman Madhivanan, Dinesh Manocha",
+    "venue": "IROS 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/etformer_cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/etformer", "Paper": "https://arxiv.org/pdf/2410.11019"}
+  },
+  {
+    "title": "Social-LLaVA: Enhancing Robot Navigation through Human-Language Reasoning in Social Spaces",
+    "authors": "Amirreza Payandeh, Daeun Song, Mohammad Nazeri, Jing Liang, Praneel Mukherjee, Amir Hossain Raj, Yangzhe Kong, Dinesh Manocha, Xuesu Xiao",
+    "venue": "IROS 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/social-llava.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/social_llava", "Paper": "https://arxiv.org/pdf/2501.09024"}
+  },
+  {
+    "title": "On the Vulnerability of LLM/VLM-Controlled Robotics",
+    "authors": "Xiyang Wu, Souradip Chakraborty, Ruiqi Xian, Jing Liang, Tianrui Guan, Fuxiao Liu, Brian M. Sadler, Dinesh Manocha, Amrit Singh Bedi",
+    "venue": "IROS 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://arxiv.org/html/2402.10340/extracted/6259596/fig1.png"},
+    "links": {"Webpage": "https://wuxiyang1996.github.io/adversary-vlm-robotics/", "Paper": "https://arxiv.org/abs/2402.10340"}
+  },
+  {
+    "title": "HALO: Human Preference Aligned Offline Reward Learning for Robot Navigation",
+    "authors": "Gershom Seneviratne, Jianyu An, Sahire Ellahy, Kasun Weerakoon, Mohamed Elnoor, Jonathan Deepak Kannan, Amogha Thalihalla Sunil, Dinesh Manocha",
+    "venue": "CoRL 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/halo-cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/halo", "Paper": "https://arxiv.org/pdf/2508.01539"}
+  },
+  {
+    "title": "BehAV: Behavioral Rule Guided Autonomy Using VLMs for Robot Navigation in Outdoor Scenes",
+    "authors": "Kasun Weerakoon, Mohamed Elnoor, Gershom Seneviratne, Vignesh Rajagopal, Senthil Hariharan Arul, Jing Liang, Mohamed Khalid M Jaffar, Dinesh Manocha",
+    "venue": "ICRA 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/behav-cover-revised-min.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/behav", "Paper": "https://arxiv.org/pdf/2409.16484"}
+  },
+  {
+    "title": "GND: Global Navigation Dataset with Multi-Modal Perception and Multi-Category Traversability in Outdoor Campus Environments",
+    "authors": "Jing Liang, Dibyendu Das, Daeun Song, Md Nahid Hasan Shuvo, Mohammad Durrani, Karthik Taranath, Ivan Penskiy, Dinesh Manocha, Xuesu Xiao",
+    "venue": "ICRA 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/gnd_cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/gnd", "Paper": "https://arxiv.org/abs/2409.14262"}
+  },
+  {
+    "title": "MOSU: Autonomous Long-range Robot Navigation with Multi-modal Scene Understanding",
+    "authors": "Jing Liang, Kasun Weerakoon, Daeun Song, Senthurbavan Kirubaharan, Xuesu Xiao, Dinesh Manocha",
+    "venue": "ISER 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/mosu_cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/mosu", "Paper": "https://arxiv.org/pdf/2507.04686"}
+  },
+  {
+    "title": "VL-TGS: Trajectory Generation and Selection using Vision Language Models in Mapless Outdoor Environments",
+    "authors": "Daeun Song*, Jing Liang*, Xuesu Xiao, Dinesh Manocha",
+    "venue": "RA-L 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/tgs_cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/tgs", "Paper": "https://arxiv.org/abs/2408.02454"}
+  },
+  {
+    "title": "VLM-GroNav: Robot Navigation Using Physically Grounded Vision-Language Models in Outdoor Environments",
+    "authors": "Mohamed Elnoor, Kasun Weerakoon, Gershom Seneviratne, Ruiqi Xian, Tianrui Guan, Mohamed Khalid M Jaffar, Vignesh Rajagopal, Dinesh Manocha",
+    "venue": "ICRA 2025",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/vlm-gronav.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/vlm-gronav", "Paper": "https://arxiv.org/pdf/2409.20445"}
+  },
+  {
+    "title": "Mode-GS: Monocular Depth Guided Anchored 3D Gaussian Splatting for Robust Ground-View Scene Rendering",
+    "authors": "Yonghan Lee, Jaehoon Choi, Dongki Jung, Jaeseong Yun, Soohyun Ryu, Dinesh Manocha, Suyong Yeon",
+    "venue": "arXiv 2024",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/modegs.png"},
+    "links": {"Webpage": "https://arxiv.org/html/2410.04646", "Paper": "https://arxiv.org/abs/2410.04646"}
+  },
+  {
+    "title": "MeshGS: Adaptive Mesh-Aligned Gaussian Splatting for High-Quality Rendering",
+    "authors": "Jaehoon Choi, Yonghan Lee, Hyungtae Lee, Heesung Kwon, Dinesh Manocha",
+    "venue": "ACCV 2024",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://arxiv.org/html/2410.08941v1/figure3.png"},
+    "links": {"Webpage": "https://openaccess.thecvf.com/content/ACCV2024/html/Choi_MeshGS_Adaptive_Mesh-Aligned_Gaussian_Splatting_for_High-Quality_Rendering_ACCV_2024_paper.html", "Paper": "https://openaccess.thecvf.com/content/ACCV2024/papers/Choi_MeshGS_Adaptive_Mesh-Aligned_Gaussian_Splatting_for_High-Quality_Rendering_ACCV_2024_paper.pdf"}
+  },
+  {
+    "title": "UAV-Sim: NeRF-based Synthetic Data Generation for UAV-based Perception",
+    "authors": "Christopher Maxey, Jaehoon Choi, Hyungtae Lee, Dinesh Manocha, Heesung Kwon",
+    "venue": "ICRA 2024",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "https://arxiv.org/html/2310.16255v1/concept.png"},
+    "links": {"Webpage": "https://arxiv.org/html/2310.16255", "Paper": "https://arxiv.org/abs/2310.16255"}
+  },
+  {
+    "title": "LTM: Lightweight Textured Mesh Extraction and Refinement of Large Unbounded Scenes for Efficient Storage and Real-time Rendering",
+    "authors": "Jaehoon Choi, Rajvi Shah, Qinbo Li, Yipeng Wang, Ayush Saraf, Changil Kim, Jia-Bin Huang, Dinesh Manocha, Suhib Alsisan, Johannes Kopf",
+    "venue": "CVPR 2024",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://jh-choi.github.io/LTM/static/images/figure3_final.jpg"},
+    "links": {"Webpage": "https://jh-choi.github.io/LTM/", "Paper": "https://openaccess.thecvf.com/content/CVPR2024/papers/Choi_LTM_Lightweight_Textured_Mesh_Extraction_and_Refinement_of_Large_Unbounded_CVPR_2024_paper.pdf"}
+  },
+  {
+    "title": "AGL-NET: Aerial-Ground Cross-Modal Global Localization with Varying Scales",
+    "authors": "Tianrui Guan, Ruiqi Xian, Xijun Wang, Xiyang Wu, Mohamed Elnoor, Daeun Song, Dinesh Manocha",
+    "venue": "IROS 2024",
+    "topics": ["aerial", "navigation"],
+    "thumbnail": {"src": "assets/papers/agl-net.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/aerialvideos/agl-net/", "Paper": "https://arxiv.org/abs/2404.03187"}
+  },
+  {
+    "title": "LANCAR: Leveraging Language for Context-Aware Robot Locomotion in Unstructured Environments",
+    "authors": "Chak Lam Shek, Xiyang Wu, Wesley A. Suttle, Carl Busart, Erin G. Zaroukian, Dinesh Manocha, Pratap Tokekar, Amrit Singh Bedi",
+    "venue": "IROS 2024",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/lancar.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/embodied/lancar/", "Paper": "https://arxiv.org/abs/2310.00481"}
+  },
+  {
+    "title": "AMCO: Adaptive Multimodal Coupling of Vision and Proprioception for Quadruped Robot Navigation in Outdoor Environments",
+    "authors": "Mohamed Elnoor, Kasun Weerakoon, Adarsh Jagan Sathyamoorthy, Tianrui Guan, Vignesh Rajagopal, Dinesh Manocha",
+    "venue": "IROS 2024",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/amco-cover.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/amco", "Paper": "https://arxiv.org/pdf/2403.13235.pdf"}
+  },
+  {
+    "title": "CoNVOI: Context-aware Navigation using Vision Language Models in Outdoor and Indoor Environments",
+    "authors": "Adarsh Jagan Sathyamoorthy, Kasun Weerakoon, Mohamed Elnoor, Anuj Zore, Brian Ichter, Fei Xia, Jie Tan, Wenhao Yu, Dinesh Manocha",
+    "venue": "IROS 2024",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/convoi-cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/convoi", "Paper": "https://arxiv.org/pdf/2403.15637.pdf"}
+  },
+  {
+    "title": "MIM: Indoor and Outdoor Navigation in Complex Environments Using Multi-Layer Intensity Maps",
+    "authors": "Adarsh Jagan Sathyamoorthy, Kasun Weerakoon, Mohamed Elnoor, Mason Russell, Jason L. Pusey, Dinesh Manocha",
+    "venue": "ICRA 2024",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/mim-cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/mim", "Paper": "https://arxiv.org/pdf/2309.07014.pdf"}
+  },
+  {
+    "title": "MTG: Mapless Trajectory Generator with Traversability Coverage for Outdoor Navigation",
+    "authors": "Jing Liang, Peng Gao, Xuesu Xiao, Adarsh Jagan Sathyamoorthy, Mohamed Elnoor, Ming C. Lin, Dinesh Manocha",
+    "venue": "ICRA 2024",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/mtg_cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/mtg", "Paper": "https://arxiv.org/abs/2309.08214"}
+  },
+  {
+    "title": "ProNav: Proprioceptive Traversability Estimation for Legged Robot Navigation in Outdoor Environments",
+    "authors": "Mohamed Elnoor, Adarsh Jagan Sathyamoorthy, Kasun Weerakoon, Dinesh Manocha",
+    "venue": "RA-L 2024",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/pronav.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/pronav", "Paper": "https://arxiv.org/pdf/2307.09754.pdf"}
+  },
+  {
+    "title": "TOPGN: Real-time Transparent Obstacle Detection using Lidar Point Cloud Intensity for Autonomous Robot Navigation",
+    "authors": "Kasun Weerakoon, Adarsh Jagan Sathyamoorthy, Mohamed Elnoor, Anuj Zore, Dinesh Manocha",
+    "venue": "ISRR 2024",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/topgn.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/topgn", "Paper": "https://arxiv.org/pdf/2408.05608"}
+  },
+  {
+    "title": "VAPOR: Legged Robot Navigation in Unstructured Outdoor Environments using Offline Reinforcement Learning",
+    "authors": "Kasun Weerakoon, Adarsh Jagan Sathyamoorthy, Mohamed Elnoor, Dinesh Manocha",
+    "venue": "ICRA 2024",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/vapor.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/vapor", "Paper": "https://arxiv.org/pdf/2309.07832.pdf"}
+  },
+  {
+    "title": "VLM-Social-Nav: Socially Aware Robot Navigation through Scoring using Vision-Language Models",
+    "authors": "Daeun Song, Jing Liang, Amirreza Payandeh, Amir Hossain Raj, Xuesu Xiao, Dinesh Manocha",
+    "venue": "RA-L 2024",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://daeunsong.github.io/publications/teaser/vsn-cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/vlm-social-nav", "Paper": "https://arxiv.org/abs/2404.00210"}
+  },
+  {
+    "title": "TMO: Textured Mesh Acquisition of Objects with a Mobile Device by Using Differentiable Rendering",
+    "authors": "Jaehoon Choi, Dongki Jung, Taejae Lee, Sangwook Kim, Youngdong Jung, Dinesh Manocha, Donghwan Lee",
+    "venue": "CVPR 2023",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/tmo_image_resize.png"},
+    "links": {"Webpage": "https://jh-choi.github.io/TMO/", "Paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Choi_TMO_Textured_Mesh_Acquisition_of_Objects_With_a_Mobile_Device_CVPR_2023_paper.pdf"}
+  },
+  {
+    "title": "DS-MPEPC: Safe and Deadlock-Avoiding Robot Navigation in Cluttered Dynamic Scenes",
+    "authors": "Senthil Hariharan Arul, Jong Jin Park, Dinesh Manocha",
+    "venue": "IROS 2023",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/ds-mpepc.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/ds-mpepc", "Paper": "https://arxiv.org/abs/2303.10133"}
+  },
+  {
+    "title": "VERN: Vegetation-aware Robot Navigation in Dense Unstructured Outdoor Environments",
+    "authors": "Adarsh Jagan Sathyamoorthy, Kasun Weerakoon, Tianrui Guan, Mason Russell, Damon Conover, Jason L. Pusey, Dinesh Manocha",
+    "venue": "IROS 2023",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/vern-cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/vern", "Paper": "https://arxiv.org/pdf/2303.14502.pdf"}
+  },
+  {
+    "title": "iPLAN: Intent-Aware Planning in Heterogeneous Traffic via Distributed Multi-Agent Reinforcement Learning",
+    "authors": "Xiyang Wu, Rohan Chandra, Tianrui Guan, Amrit Singh Bedi, Dinesh Manocha",
+    "venue": "CoRL 2023",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/iplan.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/iplan/", "Paper": "https://arxiv.org/abs/2306.06236"}
+  },
+  {
+    "title": "Can an Embodied Agent Find Your “Cat-shaped Mug”? LLM-Based Zero-Shot Object Navigation",
+    "authors": "Vishnu Sashank Dorbala, James F. Mullen Jr., Dinesh Manocha",
+    "venue": "RA-L 2023",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/can-an-embodied-agent-find-your-cat-shaped-mug-llm.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/LGX", "Paper": "https://arxiv.org/abs/2303.03480"}
+  },
+  {
+    "title": "AdaptiveON: Adaptive Outdoor Navigation Method For Stable and Reliable Actions",
+    "authors": "Jing Liang, Kasun Weerakoon, Tianrui Guan, Nare Karapetyan, Dinesh Manocha",
+    "venue": "RA-L 2023",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/adaptiveon_cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/adaptiveon", "Paper": "https://arxiv.org/abs/2205.03517"}
+  },
+  {
+    "title": "AdVENTR: Autonomous Robot Navigation in Complex Outdoor Environments",
+    "authors": "Kasun Weerakoon, Adarsh Jagan Sathyamoorthy, Mohamed Elnoor, Dinesh Manocha",
+    "venue": "ISER 2023",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/adventr_cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/adventr", "Paper": "https://arxiv.org/pdf/2311.08740"}
+  },
+  {
+    "title": "GrASPE: Graph based Multimodal Fusion for Robot Navigation in Outdoor Environments",
+    "authors": "Kasun Weerakoon, Adarsh Jagan Sathyamoorthy, Jing Liang, Tianrui Guan, Utsav Patel, Dinesh Manocha",
+    "venue": "RA-L 2023",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/graspe_cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/graspe", "Paper": "https://arxiv.org/pdf/2209.05722.pdf"}
+  },
+  {
+    "title": "SelfTune: Metrically Scaled Monocular Depth Estimation through Self-Supervised Learning",
+    "authors": "Jaehoon Choi, Dongki Jung, Yonghan Lee, Deokhwa Kim, Dinesh Manocha, Donghwan Lee",
+    "venue": "ICRA 2022",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://arxiv.org/html/2203.05332v1/ICRA2022_intro_v2.png"},
+    "links": {"Webpage": "https://arxiv.org/html/2203.05332", "Paper": "https://arxiv.org/abs/2203.05332"}
+  },
+  {
+    "title": "Multi-Robot Path Planning Using Medial-Axis-Based Pebble-Graph Embedding",
+    "authors": "Liang He, Zherong Pan, Kiril Solovey, Biao Jia, Dinesh Manocha",
+    "venue": "IROS 2022",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/multi-robot-path-planning-using-medial-axis-based-.jpg"},
+    "links": {"Paper": "https://arxiv.org/pdf/2002.11892"}
+  },
+  {
+    "title": "TerraPN: Unstructured terrain navigation through Online Self-Supervised Learning",
+    "authors": "Adarsh Jagan Sathyamoorthy, Kasun Weerakoon, Tianrui Guan, Jing Liang, Dinesh Manocha",
+    "venue": "IROS 2022",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/terrapn_cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/terrapn", "Paper": "https://arxiv.org/pdf/2202.12873.pdf"}
+  },
+  {
+    "title": "GA-Nav: Efficient Terrain Segmentation for Robot Navigation in Unstructured Outdoor Environments",
+    "authors": "Tianrui Guan, Divya Kothandaraman, Rohan Chandra, Adarsh Jagan Sathyamoorthy, Kasun Weerakoon, Dinesh Manocha",
+    "venue": "RAL 2022",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/ga-nav.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/offroad", "Paper": "https://arxiv.org/abs/2103.04233"}
+  },
+  {
+    "title": "HTRON: Efficient Outdoor Navigation with Sparse Rewards via Heavy Tailed Adaptive Reinforce Algorithm",
+    "authors": "Kasun Weerakoon, Souradip Chakraborty, Nare Karapetyan, Adarsh Jagan Sathyamoorthy, Amrit Singh Bedi, Dinesh Manocha",
+    "venue": "CoRL 2022",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/htron_cover.PNG"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/htron", "Paper": "https://arxiv.org/pdf/2207.03694.pdf"}
+  },
+  {
+    "title": "TERP: Reliable Planning in Uneven Outdoor Environments using Deep Reinforcement Learning",
+    "authors": "Kasun Weerakoon, Adarsh Jagan Sathyamoorthy, Utsav Patel, Dinesh Manocha",
+    "venue": "ICRA 2022",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/motionplanning/terp_cover_image.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/terp", "Paper": "https://ieeexplore.ieee.org/document/9812238"}
+  },
+  {
+    "title": "DnD: Dense Depth Estimation in Crowded Dynamic Indoor Scenes",
+    "authors": "Dongki Jung, Jaehoon Choi, Yonghan Lee, Deokhwa Kim, Changick Kim, Dinesh Manocha, Donghwan Lee",
+    "venue": "ICCV 2021",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/DnD_resize.png"},
+    "links": {"Webpage": "https://openaccess.thecvf.com/content/ICCV2021/html/Jung_DnD_Dense_Depth_Estimation_in_Crowded_Dynamic_Indoor_Scenes_ICCV_2021_paper.html", "Paper": "https://openaccess.thecvf.com/content/ICCV2021/papers/Jung_DnD_Dense_Depth_Estimation_in_Crowded_Dynamic_Indoor_Scenes_ICCV_2021_paper.pdf"}
+  },
+  {
+    "title": "SelfDeco: Self-Supervised Monocular Depth Completion in Challenging Indoor Environments",
+    "authors": "Jaehoon Choi, Dongki Jung, Yonghan Lee, Deokhwa Kim, Dinesh Manocha, Donghwan Lee",
+    "venue": "ICRA 2021",
+    "topics": ["vision"],
+    "thumbnail": {"src": "https://jdk9405.github.io/image/selfdeco.PNG"},
+    "links": {"Webpage": "https://arxiv.org/abs/2011.04977", "Paper": "https://arxiv.org/pdf/2011.04977"}
+  },
+  {
+    "title": "XAI-N: Sensor-based Robot Navigation using Expert Policies and Decision Trees",
+    "authors": "Aaron M. Roth, Jing Liang, Dinesh Manocha",
+    "venue": "IROS 2021",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/xrl/Jackal_demo.JPG"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/xrl/navviper", "Paper": "https://arxiv.org/pdf/2104.10818"}
+  },
+  {
+    "title": "CoMet: Modeling Group Cohesion for Socially Compliant Robot Navigation in Crowded Scenes",
+    "authors": "Adarsh Jagan Sathyamoorthy, Utsav Patel, Moumita Paul, Nithish K Sanjeev Kumar, Yash Savle, Dinesh Manocha",
+    "venue": "IEEE RAL 2021",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/frozone_figure.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/comet", "Paper": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/pdfs/crowdmultiagent/CoMet.pdf"}
+  },
+  {
+    "title": "COVID surveillance robot: Monitoring social distancing constraints in indoor scenarios",
+    "authors": "Adarsh Jagan Sathyamoorthy, Utsav Patel, Moumita Paul, Yash Savle, Dinesh Manocha",
+    "venue": "PLOS ONE 2021",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/covid_robot_cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/covid-robot", "Paper": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/pdfs/crowdmultiagent/covid_robot.pdf"}
+  },
+  {
+    "title": "Realtime Collision Avoidance for Mobile Robots in Dense Crowds using Implicit Multi-sensor Fusion and Deep Reinforcement Learning",
+    "authors": "Jing Liang, Utsav Patel, Adarsh Jagan Sathyamoorthy, Dinesh Manocha",
+    "venue": "IJCAI 2021",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/crowdsteer_cover.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/crowdsteer", "Paper": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/pdfs/crowdmultiagent/CrowdSteer.pdf"}
+  },
+  {
+    "title": "DWA-RL: Dynamically Feasible Deep Reinforcement Learning Policy for Robot Navigation among Mobile Obstacles",
+    "authors": "Utsav Patel, Nithish K Sanjeev Kumar, Adarsh Jagan Sathyamoorthy, Dinesh Manocha",
+    "venue": "ICRA 2021",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/dwa_rl_cover.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/dwa-rl", "Paper": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/pdfs/crowdmultiagent/DWA_RL.pdf"}
+  },
+  {
+    "title": "OF-VO: Reliable Navigation among Pedestrians Using Commodity Sensors",
+    "authors": "Jing Liang, Yi-Ling Qiao, Dinesh Manocha",
+    "venue": "IEEE RAL",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/of-vo.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/ofvo", "Paper": "https://arxiv.org/pdf/2004.10976"}
+  },
+  {
+    "title": "ProxEmo: Gait-based Emotion Learning and Multi-view Proxemic Fusion for Socially-Aware Robot Navigation",
+    "authors": "Venkatraman Narayanan, Bala Murali Manoghar, Vishnu Sashank Dorbala, Dinesh Manocha, Aniket Bera",
+    "venue": "IROS 2020",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/proxemo.jpg"},
+    "links": {"Paper": "https://arxiv.org/pdf/2003.01062"}
+  },
+  {
+    "title": "Frozone: Freezing-Free, Pedestrian-Friendly Navigation in Human Crowds",
+    "authors": "Adarsh Jagan Sathyamoorthy, Utsav Patel, Tianrui Guan, Dinesh Manocha",
+    "venue": "RA-L IROS 2020",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/frozone_figure.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/frozone", "Paper": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/pdfs/crowdmultiagent/Frozone.pdf"}
+  },
+  {
+    "title": "DenseCAvoid: Real-time Navigation in Dense Crowds using Anticipatory Behaviors",
+    "authors": "Adarsh Jagan Sathyamoorthy, Jing Liang, Utsav Patel, Tianrui Guan, Rohan Chandra, Dinesh Manocha",
+    "venue": "ICRA 2020",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/crowdmultiagent/densecavoid_cover.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/crowdmultiagent/densecavoid", "Paper": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/pdfs/crowdmultiagent/ICRA_2020_DenseCAvoid.pdf"}
+  },
+  {
+    "title": "d-ORCA: Distributed Optimal Reciprocal Collision Avoidance",
+    "authors": "Harish Sampathkumar, Senthil Hariharan Arul, Adarsh Jagan Sathyamoorthy",
+    "venue": "ROS Package 2019",
+    "topics": ["navigation"],
+    "thumbnail": {"placeholder": "DO"},
+    "links": {"Webpage": "https://github.com/harish1696/d-orca"}
+  },
+  {
+    "title": "DensePeds: Pedestrian Tracking in Dense Crowds Using Front-RVO and Sparse Features",
+    "authors": "Rohan Chandra, Uttaran Bhattacharya, Aniket Bera, Dinesh Manocha",
+    "venue": "IROS 2019",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/densepeds.jpg"},
+    "links": {"Paper": "https://arxiv.org/pdf/1906.10313"}
+  },
+  {
+    "title": "Monitoring Access to User Defined Areas with Multi-Agent Team in Urban Environments",
+    "authors": "Manas Gupta, Ming C. Lin, Dinesh Manocha, Huan Xu, Michael Otte",
+    "venue": "MRS 2019",
+    "topics": ["navigation"],
+    "thumbnail": {"placeholder": "MA"},
+    "links": {"Paper": "https://doi.org/10.1109/mrs.2019.8901057"}
+  },
+  {
+    "title": "LSwarm: Efficient Collision Avoidance for Large Swarms with Coverage Constraints in Complex Urban Scenes",
+    "authors": "Senthil Hariharan Arul, Adarsh Jagan Sathyamoorthy, Shivang Patel, Michael Otte, Huan Xu, Ming C. Lin, Dinesh Manocha",
+    "venue": "RA-L IROS 2019",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/lswarm.jpg"},
+    "links": {"Paper": "https://arxiv.org/pdf/1902.08379"}
+  },
+  {
+    "title": "PORCA: Modeling and Planning for Autonomous Driving among Many Pedestrians",
+    "authors": "Yuanfu Luo, Panpan Cai, Aniket Bera, David Hsu, Wee Sun Lee, Dinesh Manocha",
+    "venue": "RA-L 2018",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/porca.jpg"},
+    "links": {"Paper": "https://arxiv.org/pdf/1805.11833"}
+  },
+  {
+    "title": "Efficient Reciprocal Collision Avoidance between Heterogeneous Agents Using CTMAT",
+    "authors": "Yuexin Ma, Dinesh Manocha, Wenping Wang",
+    "venue": "AAMAS 2018",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/efficient-reciprocal-collision-avoidance-between-h.jpg"},
+    "links": {"Paper": "https://arxiv.org/pdf/1804.02512"}
+  },
+  {
+    "title": "AutoRVO: Local Navigation with Dynamic Constraints in Dense Heterogeneous Traffic",
+    "authors": "Yuexin Ma, Dinesh Manocha, Wenping Wang",
+    "venue": "ACM CSCS 2018",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/autorvo.jpg"},
+    "links": {"Paper": "https://arxiv.org/pdf/1804.02915"}
+  },
+  {
+    "title": "Stable information transfer network facilitates the emergence of collective behavior in bird flocks",
+    "authors": "Jiaping Ren, Wanxuan Sun, Dinesh Manocha, Aming Li, Xiaogang Jin",
+    "venue": "PRE 2018",
+    "topics": ["navigation"],
+    "thumbnail": {"placeholder": "SI"},
+    "links": {"Paper": "https://doi.org/10.1103/physreve.98.052309"}
+  },
+  {
+    "title": "MixedPeds: Pedestrian Detection in Unannotated Videos Using Synthetically Generated Human-Agents for Training",
+    "authors": "Ernest C. H. Cheung, Anson Wong, Aniket Bera, Dinesh Manocha",
+    "venue": "AAAI 2018",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/MixedPeds/assets/images/outline-4hr-2000x984.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/MixedPeds/", "Paper": "https://ojs.aaai.org/index.php/AAAI/article/download/12325/12184"}
+  },
+  {
+    "title": "Efficient Multi-Agent Global Navigation Using Interpolating Bridges",
+    "authors": "Liang He, Jia Pan, Dinesh Manocha",
+    "venue": "ICRA 2017",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/efficient-multi-agent-global-navigation-using-inte.jpg"},
+    "links": {"Paper": "https://arxiv.org/pdf/1607.07472"}
+  },
+  {
+    "title": "PRVO: Probabilistic Reciprocal Velocity Obstacle for Multi Robot Navigation under Uncertainty",
+    "authors": "Bharath Gopalakrishnan, Arun Kumar Singh, Meha Kaushik, K. Madhava Krishna, Dinesh Manocha",
+    "venue": "IROS 2017",
+    "topics": ["navigation"],
+    "thumbnail": {"placeholder": "PR"},
+    "links": {"Paper": "https://doi.org/10.1109/iros.2017.8202279"}
+  },
+  {
+    "title": "ACMICS: an agent communication model for interacting crowd simulation",
+    "authors": "Kurtuluş Küllü, Uğur Güdükbay, Dinesh Manocha",
+    "venue": "AAMAS 2017",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/acmics.jpg"},
+    "links": {"Paper": "https://repository.bilkent.edu.tr/bitstreams/4e9ca2e3-ac62-4339-92ee-4a5965da1c96/download"}
+  },
+  {
+    "title": "WarpDriver: context-aware probabilistic motion prediction for crowd simulation",
+    "authors": "David Wolinski, Ming C. Lin, Julien Pettré",
+    "venue": "SIGGRAPH Asia 2016",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/warpdriver.jpg"},
+    "links": {"Webpage": "http://dl.acm.org/citation.cfm?id=2982442", "Paper": "https://doi.org/10.17615/r682-y951"}
+  },
+  {
+    "title": "Interactive and Adaptive Data-Driven Crowd Simulation",
+    "authors": "Sujeong Kim, Aniket Bera, Andrew Best, Rohan Chabra, Dinesh Manocha",
+    "venue": "IEEE VR 2016",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/DDPD/fig_BlackFriday.png"},
+    "links": {"Paper": "https://doi.org/10.1109/vr.2016.7504685"}
+  },
+  {
+    "title": "Real-time Reciprocal Collision Avoidance with Elliptical Agents",
+    "authors": "Andrew Best, Sahil Narang, Dinesh Manocha",
+    "venue": "ICRA 2016",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/EORCA/images/Teaser1.png"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/EORCA/", "Paper": "https://gamma-web.iacs.umd.edu/EORCA/files/EORCA_ICRA16.pdf"}
+  },
+  {
+    "title": "LCrowdV: Generating Labeled Videos for Simulation-Based Crowd Behavior Learning",
+    "authors": "Ernest Cheung, Tsan Kwong Wong, Aniket Bera, Xiaogang Wang, Dinesh Manocha",
+    "venue": "ECCV Workshop 2016",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/LCrowdV/images/image_4.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/LCrowdV/", "Paper": "https://arxiv.org/abs/1606.08998"}
+  },
+  {
+    "title": "Menge: A Modular Framework for Crowd Movement Simulation",
+    "authors": "Sean Curtis, Andrew Best, Dinesh Manocha",
+    "venue": "Software Package/Collective Dynamics 2016",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/menge.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/Menge/", "Paper": "https://collective-dynamics.eu/index.php/cod/article/download/A1/3"}
+  },
+  {
+    "title": "PedVR: Simulating Gaze-Based Interactions between a Real User and Virtual Crowds",
+    "authors": "Sahil Narang, Andrew Best, Tanmay Randhavane, Ari Shapiro, Dinesh Manocha",
+    "venue": "ACM VRST 2016",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/pedvr/images/teaser.png"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/pedvr/", "Paper": "https://doi.org/10.1145/2993369.2993378"}
+  },
+  {
+    "title": "GLMP – Realtime Pedestrian Path Prediction using Global and Local Movement Patterns",
+    "authors": "Aniket Bera, Sujeong Kim, Tanmay Randhavane, Srihari Pratapa, Dinesh Manocha",
+    "venue": "ICRA 2016",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/RCrowdT/GLMP/images/cover.png"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/RCrowdT/GLMP/", "Paper": "https://doi.org/10.1109/icra.2016.7487768"}
+  },
+  {
+    "title": "Realtime Crowd Tracking and Data-Driven Simulation",
+    "authors": "Aniket Bera, Dinesh Manocha",
+    "venue": "ICRA, IEEE VR, ISM, Computers & Graphics 2016",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/REACH/CrowdT/_include/img/main.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/REACH/CrowdT/"}
+  },
+  {
+    "title": "Online parameter learning for data-driven crowd simulation and content generation",
+    "authors": "Aniket Bera, Sujeong Kim, Dinesh Manocha",
+    "venue": "Computers & Graphics 2016",
+    "topics": ["navigation"],
+    "thumbnail": {"placeholder": "OP"},
+    "links": {"Webpage": "http://www.sciencedirect.com/science/article/pii/S0097849315001703", "Paper": "https://doi.org/10.1016/j.cag.2015.10.009"}
+  },
+  {
+    "title": "Predicting Pedestrian Trajectories using Velocity-Space Reasoning",
+    "authors": "Sujeong Kim, Stephen J. Guy, Wenxi Liu, Rynson W. H. Lau, Ming C. Lin, Dinesh Manocha",
+    "venue": "IJRR 2015",
+    "topics": ["navigation", "planning"],
+    "thumbnail": {"src": "assets/papers/predicting-pedestrian-trajectories-using-velocity-.jpg"},
+    "links": {"Paper": "https://doi.org/10.1007/978-3-642-36279-8_37"}
+  },
+  {
+    "title": "BSwarm: Biologically-Plausible Dynamics Model of Insect Swarms",
+    "authors": "Xinjie Wang, Jiaping Ren, Xiaogang Jin, Dinesh Manocha",
+    "venue": "SCA 2015",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/BSwarm/framework.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/BSwarm/", "Paper": "https://doi.org/10.1145/2786784.2786790"}
+  },
+  {
+    "title": "Interactive Crowd Content Generation and Analysis using Trajectory-level Behavior Learning",
+    "authors": "Sujeong Kim, Aniket Bera, Dinesh Manocha",
+    "venue": "ISM 2015",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/PDL/bar_red.png"},
+    "links": {"Paper": "https://doi.org/10.1109/ism.2015.89"}
+  },
+  {
+    "title": "Efficient Trajectory Extraction and Parameter Learning for Data-Driven Crowd Simulation",
+    "authors": "Aniket Bera, Sujeong Kim, Dinesh Manocha",
+    "venue": "GI 2015",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/REACH/GI/images/cover.png"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/REACH/GI/", "Paper": "https://doi.org/10.20380/gi2015.09"}
+  },
+  {
+    "title": "REACH – Realtime Crowd tracking using a Hybrid motion model",
+    "authors": "Aniket Bera, Dinesh Manocha",
+    "venue": "ICRA 2015",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/reach-realtime-crowd-tracking-using-a-hybrid-motio.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/REACH/ICRA15Bera.pdf", "Paper": "https://doi.org/10.1109/icra.2015.7139261"}
+  },
+  {
+    "title": "Biologically-Inspired Visual Simulation of Insect Swarms",
+    "authors": "Weizi Li, David Wolinski, Julien Pettré, Ming C. Lin",
+    "venue": "EUROGRAPHICS 2015",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/VisInsectSwarms/image/teaser.png"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/VisInsectSwarms/", "Paper": "https://doi.org/10.1111/cgf.12572"}
+  },
+  {
+    "title": "Generating Pedestrian Trajectories Consistent with the Fundamental Diagram Based on Physiological and Psychological Factors",
+    "authors": "Sahil Narang, Andrew Best, Sean Curtis, Dinesh Manocha",
+    "venue": "PLOS ONE 2015",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/generating-pedestrian-trajectories-consistent-with.jpg"},
+    "links": {"Webpage": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117856", "Paper": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0117856&type=printable"}
+  },
+  {
+    "title": "Parameter Estimation and Comparative Evaluation of Crowd Simulations",
+    "authors": "David Wolinski, Stephen J. Guy, Anne‐Hélène Olivier, Ming C. Lin, Dinesh Manocha, Julien Pettré",
+    "venue": "EUROGRAPHICS 2014",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/parameter-estimation-and-comparative-evaluation-of.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/CParameter/", "Paper": "https://doi.org/10.1111/cgf.12328"}
+  },
+  {
+    "title": "DenseSense: Interactive Crowd Simulation using Density-Dependent Filters",
+    "authors": "Andrew Best, Sahil Narang, S. Curtis, Dinesh Manocha",
+    "venue": "SCA 2014",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/DenseSense/images/TeaserAlt1.png"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/DenseSense/", "Paper": "https://gamma.cs.unc.edu/DenseSense/files/FDAdherence.pdf"}
+  },
+  {
+    "title": "Hybrid Long-Range Collision Avoidance for Crowd Simulation",
+    "authors": "Abhinav Golas, Rahul Narain, Sean Curtis, Ming C. Lin",
+    "venue": "I3D 2013/IEEE TVCG 2014",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/hybrid-long-range-collision-avoidance-for-crowd-si.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/lookahead/", "Paper": "https://doi.org/10.1109/tvcg.2013.235"}
+  },
+  {
+    "title": "Ped-Air: a Simulator for Loading, Unloading, and Evacuating Aircraft",
+    "authors": "Andrew Best, Sean Curtis, David J. Kasik, Christopher Senesac, Tim Sikora, Dinesh Manocha",
+    "venue": "Pedestrian and Evacuation Dynamics 2014",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/PedAir/images/gr104503.png"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/PedAir/", "Paper": "https://www.sciencedirect.com/science/article/pii/S235214651400088X/pdf"}
+  },
+  {
+    "title": "Realtime Multilevel Crowd Tracking Using Reciprocal Velocity Obstacles",
+    "authors": "Aniket Bera, Dinesh Manocha",
+    "venue": "ICPR 2014",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/RCrowdT/images/main.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/RCrowdT/", "Paper": "https://arxiv.org/abs/1402.2826"}
+  },
+  {
+    "title": "Velocity-Based Modeling of Physical Interactions in Multi-Agent Simulations",
+    "authors": "Sujeong Kim, Stephen J. Guy, Dinesh Manocha",
+    "venue": "SCA/Visual Computer 2013",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/CrowdInteractions/figures/Bottleneck.png"},
+    "links": {"Paper": "https://doi.org/10.1145/2485895.2485910"}
+  },
+  {
+    "title": "A Statistical Similarity Measure for Aggregate Crowd Dynamics",
+    "authors": "Stephen J. Guy, Jur van den Berg, Wenxi Liu, Rynson W. H. Lau, Ming C. Lin, Dinesh Manocha",
+    "venue": "SIGGRAPH Asia 2012",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/Entropy/teaser.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/Entropy/", "Paper": "https://doi.org/10.1145/2366145.2366209"}
+  },
+  {
+    "title": "Interactive Simulation of Dynamic Crowd Behaviors using General Adaptation Syndrome Theory",
+    "authors": "Sujeong Kim, Stephen J. Guy, Dinesh Manocha, Ming C. Lin",
+    "venue": "I3D 2012",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/GAScrowd/figures/chasing.jpg"},
+    "links": {"Paper": "https://doi.org/10.1145/2159616.2159626"}
+  },
+  {
+    "title": "Pedestrian Velocity Obstacles: Pedestrian Simulation through Reasoning in Velocity Space",
+    "authors": "Sean Curtis",
+    "venue": "PED 2012",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/pedestrian-velocity-obstacles.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/PEDS/", "Paper": "https://cdr.lib.unc.edu/record/uuid:481dd80b-0059-4e35-b0ab-e91d2cd62591"}
+  },
+  {
+    "title": "Directing Crowd Simulations Using Navigation Fields",
+    "authors": "Sachin Patil, Jur van den Berg, Sean Curtis, Ming C. Lin, Dinesh Manocha",
+    "venue": "IEEE TVCG 2011",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/directing-crowd-simulations-using-navigation-field.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/DCrowd/", "Paper": "https://doi.org/10.1109/tvcg.2010.33"}
+  },
+  {
+    "title": "Virtual Tawaf: A Case Study in Simulating the Behavior of Dense, Heterogeneous Crowds",
+    "authors": "Sean Curtis, Stephen J. Guy, Basim Zafar, Dinesh Manocha",
+    "venue": "Visual Analysis of Large Crowds 2011",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/virtual-tawaf.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/LARGE/", "Paper": "https://gamma-web.iacs.umd.edu/LARGE/papers/virtualTawaf.pdf"}
+  },
+  {
+    "title": "Optimal Reciprocal Collision Avoidance",
+    "authors": "Haotian Niu, Cunbao Ma, Pei Han",
+    "venue": "ISRR 2011",
+    "topics": ["navigation", "planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/ORCA/images/ORCA-1.png"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/ORCA/", "Paper": "https://doi.org/10.1016/j.robot.2020.103705"}
+  },
+  {
+    "title": "Simulating Heterogeneous Crowd Behaviors Using Personality Trait Theory",
+    "authors": "Stephen J. Guy, Sujeong Kim, Ming C. Lin, Dinesh Manocha",
+    "venue": "SCA 2011",
+    "topics": ["navigation"],
+    "thumbnail": {"placeholder": "SH"},
+    "links": {"Paper": "https://doi.org/10.1145/2019406.2019413"}
+  },
+  {
+    "title": "Synthesizing Human Motion in Constrained Environments",
+    "authors": "Jia Pan, Liangjun Zhang, Dinesh Manocha",
+    "venue": "Humanoids, CASA 2010",
+    "topics": ["navigation", "planning"],
+    "thumbnail": {"src": "assets/papers/synthesizing-human-motion-in-constrained-environme.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/DHM/", "Paper": "https://doi.org/10.1007/978-3-642-36368-9_14"}
+  },
+  {
+    "title": "A Least-effort Approach to Crowd Simulation",
+    "authors": "Stephen J. Guy, Jatin Chhugani, Sean Curtis, Pradeep Kumar Dubey, Ming C. Lin, Dinesh Manocha",
+    "venue": "SCA 2010",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "http://gamma.cs.unc.edu/PLE/images/PLE-1.png"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/PLE/", "Paper": "https://gamma.cs.unc.edu/PLE/pubs/PLE.pdf"}
+  },
+  {
+    "title": "Modeling Collision Avoidance Behavior for Virtual Humans",
+    "authors": "Stephen J. Guy, Ming C. Lin, Dinesh Manocha",
+    "venue": "AAMAS 2010",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/RCAP/overlay2.png"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/RCAP/", "Paper": "https://gamma.cs.unc.edu/RCAP/aamas2010.pdf"}
+  },
+  {
+    "title": "ClearPath: Highly Parallel Collision Avoidance for Multi-Agent Simulation",
+    "authors": "Stephen J. Guy, Jatin Chhugani, Changkyu Kim, Nadathur Satish, Ming C. Lin, Dinesh Manocha, Pradeep Dubey",
+    "venue": "SCA 2009",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/clearpath.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/CA/", "Paper": "https://doi.org/10.1145/1599470.1599494"}
+  },
+  {
+    "title": "Aggregate Dynamics for Dense Crowd Simulation",
+    "authors": "Rahul Narain, Abhinav Golas, Sean Curtis, Ming C. Lin",
+    "venue": "SIGGRAPH Asia 2009",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/aggregate-dynamics-for-dense-crowd-simulation.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/DenseCrowds/", "Paper": "https://doi.org/10.1145/1618452.1618468"}
+  },
+  {
+    "title": "Composite Agents",
+    "authors": "Hengchin Yeh, Sean Curtis, Sachin Patil, Jur van den Berg, Dinesh Manocha, Ming C. Lin",
+    "venue": "SCA 2008",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "http://gamma.cs.unc.edu/CompAgent/imgs/subway1.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/CompAgent/", "Paper": "https://gamma-web.iacs.umd.edu/CompAgent/egMain.pdf"}
+  },
+  {
+    "title": "Interactive Navigation of Individual Agents in Crowded Environments",
+    "authors": "Jur van den Berg, Sachin Patil, Jason Sewall, Dinesh Manocha, Ming C. Lin",
+    "venue": "I3D 2008",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/interactive-navigation-of-individual-agents-in-cro.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/RVO/NAVIGATE/", "Paper": "https://gamma-web.iacs.umd.edu/RVO/NAVIGATE/i3d2008.pdf"}
+  },
+  {
+    "title": "Navigating Virtual Agents in Online Virtual Worlds",
+    "authors": "Russell Gayle, Dinesh Manocha",
+    "venue": "Web3D Symposium 2008",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/SecondLife/UNCTeaser-lowres.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/SecondLife/", "Paper": "https://doi.org/10.1145/1394209.1394223"}
+  },
+  {
+    "title": "Real-time Path Planning for Virtual Agents in Dynamic Environments",
+    "authors": "Avneesh Sud, Erik Andersen, Sean Curtis, Ming C. Lin, Dinesh Manocha",
+    "venue": "IEEE VR/TVCG 2007",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/real-time-path-planning-for-virtual-agents-in-dyna.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/crowd/", "Paper": "https://gamma-web.iacs.umd.edu/crowd/paper300.pdf"}
+  },
+  {
+    "title": "Real-time Navigation of Independent Agents Using Adaptive Roadmaps",
+    "authors": "Avneesh Sud, Russell Gayle, Erik Andersen, Stephen J. Guy, Ming C. Lin, Dinesh Manocha",
+    "venue": "VRST 2007",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/real-time-navigation-of-independent-agents-using-a.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/crowd/aero/", "Paper": "https://gamma-web.iacs.umd.edu/crowd/aero/sud-vrst-final.pdf"}
+  },
+  {
+    "title": "RVO2 Library Integration with Unreal Development Kit",
+    "authors": "Jamie Snape, Jur van den Berg, Stephen J. Guy, Dinesh Manocha",
+    "venue": "Software Package",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/RVO2-UDK/images/RVO2-UDK-1.jpg"},
+    "links": {"Webpage": "https://gamma-web.iacs.umd.edu/RVO2-UDK/"}
+  },
+  {
+    "title": "CalibFree: Self-Supervised View Feature Separation for Calibration-Free Multi-Camera Multi-Object Tracking",
+    "authors": "Ruiqi Xian, D. Patel, Iain Melvin, Sanjoy Kundu, Martin Renqiang Min, Dinesh Manocha",
+    "venue": "arXiv 2026",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "assets/papers/calibfree.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/aerialvideos/calibfree"}
+  },
+  {
+    "title": "HawkI: Homography & Mutual Information Guidance for 3D-free Single Image to Aerial View",
+    "authors": "D. Kothandaraman, Tian-Yi Zhou, Ming C. Lin, Dinesh Manocha",
+    "venue": "arXiv 2024",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "assets/papers/hawki.jpg"},
+    "links": {"Paper": "https://arxiv.org/abs/2311.15478"}
+  },
+  {
+    "title": "PLAR: Prompt Learning for Action Recognition",
+    "venue": "IROS 2024",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "assets/papers/plar.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/aerialvideos/plar"}
+  },
+  {
+    "title": "PMI Sampler: Patch Similarity Guided Frame Selection for Aerial Action Recognition",
+    "authors": "Ruiqi Xian, Xijun Wang, D. Kothandaraman, Dinesh Manocha",
+    "venue": "WACV 2024",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "assets/papers/pmi-sampler.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/aerialvideos/pmisp"}
+  },
+  {
+    "title": "MITFAS: Mutual Information based Temporal Feature Alignment and Sampling for Aerial Video Action Recognition",
+    "authors": "Ruiqi Xian, Xijun Wang, Dinesh Manocha",
+    "venue": "WACV 2024",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "assets/papers/mitfas.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/aerialvideos/mitfas"}
+  },
+  {
+    "title": "Aerial Diffusion: Text Guided Ground-to-Aerial View Translation from a Single Image using Diffusion Models",
+    "authors": "D. Kothandaraman, Tianyi Zhou, Ming Lin, Dinesh Manocha",
+    "venue": "Siggraph Asia 2023",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "assets/papers/aerial-diffusion.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/aerialvideos/aerialdiffusion"}
+  },
+  {
+    "title": "CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition",
+    "authors": "Tian-Rui Guan, Aswath Muthuselvam, Montana Hoover, Xijun Wang, Jing Liang, A. Sathyamoorthy, D. Conover, Dinesh Manocha",
+    "venue": "ICCV 2023",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "assets/papers/crossloc3d.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/aerialvideos/crossloc3d"}
+  },
+  {
+    "title": "DIFFAR: Differentiable Frequency-based Disentanglement for Aerial Video Action Recognition",
+    "venue": "ICRA 2023",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/aerialvideos/diffar.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/aerialvideos/diffar"}
+  },
+  {
+    "title": "AZTR: Aerial Video Action Recognition with Auto Zoom and Temporal Reasoning",
+    "authors": "Xijun Wang, Ruiqi Xian, Tian-Rui Guan, Celso M. de Melo, Stephen M. Nogar, Aniket Bera, Dinesh Manocha",
+    "venue": "ICRA 2023",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "assets/papers/aztr.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/aerialvideos/aztr"}
+  },
+  {
+    "title": "FAR: Fourier Aerial Video Recognition",
+    "authors": "D. Kothandaraman, Tian-Rui Guan, Xijun Wang, Shuo-Wen Hu, Ming C. Lin, Dinesh Manocha",
+    "venue": "ECCV 2022",
+    "topics": ["aerial"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/aerialvideos/FAR.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/aerialvideos/far"}
+  },
+  {
+    "title": "Differentiable Cloth Simulation for Inverse Problems",
+    "authors": "Junbang Liang, Ming C. Lin, V. Koltun",
+    "venue": "NeurIPS 2019",
+    "topics": ["physics"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/virtualtryon/teasernips19.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/virtualtryon/differentiablecloth/"}
+  },
+  {
+    "title": "Scalable Differentiable Physics for Learning and Control",
+    "authors": "Yi-Ling Qiao, Junbang Liang, V. Koltun, Ming C. Lin",
+    "venue": "ICML 2020",
+    "topics": ["physics"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/diffsim/teasericml20.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/mlphysics/diffsim/"}
+  },
+  {
+    "title": "Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding",
+    "authors": "Qingyang Tan, Zherong Pan, Lin Gao, Dinesh Manocha",
+    "venue": "IEEE RA-L 2020",
+    "topics": ["physics"],
+    "thumbnail": {"src": "assets/papers/realtime-simulation-of-thin-shell-deformable-mater.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/mlphysics/mlcloth/"}
+  },
+  {
+    "title": "Differentiable Fluids with Solid Coupling for Learning and Control",
+    "authors": "Tetsuya Takahashi, Junbang Liang, Yi-Ling Qiao, Ming C. Lin",
+    "venue": "AAAI 2021",
+    "topics": ["physics"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/diffsim/teaseraaai21.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/mlphysics/difffluid/"}
+  },
+  {
+    "title": "LCollision: Fast Generation of Collision-Free Human Poses using Learned Non-Penetration Constraints",
+    "authors": "Qingyang Tan, Zherong Pan, Dinesh Manocha",
+    "venue": "AAAI 2021",
+    "topics": ["physics"],
+    "thumbnail": {"src": "assets/papers/lcollision.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/mlphysics/lcollision/"}
+  },
+  {
+    "title": "N-Penetrate: Active Learning of Neural Collision Handler for Complex 3D Mesh Deformations",
+    "authors": "Qingyang Tan, Zherong Pan, Breannan Smith, Takaaki Shiratori, Dinesh Manocha",
+    "venue": "ICML 2022",
+    "topics": ["physics"],
+    "thumbnail": {"src": "assets/papers/n-penetrate.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/mlphysics/npenetrate/", "Paper": "https://proceedings.mlr.press/v162/tan22b/tan22b.pdf"}
+  },
+  {
+    "title": "A Repulsive Force Unit for Garment Collision Handling in Neural Networks",
+    "authors": "Qingyang Tan, Yi Zhou, Tuanfeng Y. Wang, Duygu Ceylan, Xin Sun, Dinesh Manocha",
+    "venue": "ECCV 2022",
+    "topics": ["physics"],
+    "thumbnail": {"src": "assets/papers/a-repulsive-force-unit-for-garment-collision-handl.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/mlphysics/refu/"}
+  },
+  {
+    "title": "NeoNav: Improving the Generalization of Visual Navigation via Generating Next Expected Observations",
+    "authors": "Qiao-Yun Wu, Dinesh Manocha, Jun Wang, Kai Xu",
+    "venue": "AAAI 2020",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/neonav.jpg"},
+    "links": {"Paper": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/motionplanning/AAAI-WuQ.2276.pdf"}
+  },
+  {
+    "title": "Efficient Generation of Motion Plans from Attribute-Based Natural Language Instructions Using Dynamic Constraint Mapping",
+    "authors": "Jae Sung Park, Biao Jia, Mohit Bansal, Dinesh Manocha",
+    "venue": "ICRA 2019",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/efficient-generation-of-motion-plans-from-attribut.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/publication/730"}
+  },
+  {
+    "title": "Fast Motion Planning for High-DOF Robot Systems Using Hierarchical System Identification",
+    "authors": "Biao Jia, Zherong Pan, Dinesh Manocha",
+    "venue": "ICRA 2019",
+    "topics": ["planning"],
+    "thumbnail": {"placeholder": "MP"},
+    "links": {"Webpage": "https://gamma.umd.edu/publication/720"}
+  },
+  {
+    "title": "CrowdMove: Autonomous Mapless Navigation in Crowded Scenarios",
+    "venue": "ArXiv 2019",
+    "topics": ["planning"],
+    "thumbnail": {"placeholder": "MP"},
+    "links": {"Paper": "https://arxiv.org/abs/1807.07870"}
+  },
+  {
+    "title": "Getting Robots Unfrozen and Unlost in Dense Pedestrian Crowds",
+    "authors": "Tingxiang Fan, Xinjing Cheng, Jia Pan, Pinxin Long, Wen-Xi Liu, Rui-Gang Yang, Dinesh Manocha",
+    "venue": "RA-L (ICRA) 2019",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/getting-robots-unfrozen-and-unlost-in-dense-pedest.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/publication/719"}
+  },
+  {
+    "title": "Safe Navigation with Human Instructions in Complex Scenes",
+    "authors": "Zhe Hu, Jia Pan, Tingxiang Fan, Rui-Gang Yang, Dinesh Manocha",
+    "venue": "ICRA 2019",
+    "topics": ["planning"],
+    "thumbnail": {"placeholder": "MP"},
+    "links": {"Webpage": "https://gamma.umd.edu/publication/737"}
+  },
+  {
+    "title": "Pedestrian Dominance Modeling for Socially-Aware Robot Navigation",
+    "authors": "Tanmay Randhavane, Aniket Bera, Emily Kubin, Austin S. Wang, Kurt Gray, Dinesh Manocha",
+    "venue": "ICRA 2019",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/pedestrian-dominance-modeling-for-socially-aware-r.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/publication/723"}
+  },
+  {
+    "title": "Optimization-based Motion Planning in Dynamic Environments",
+    "venue": "Projects Collection",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/ITOMP/human_graph1.png"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/ITOMP/"}
+  },
+  {
+    "title": "Safe Motion Planning for Human-Robot Interaction",
+    "venue": "IJRR 2018",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/SafeMP/human_graph1.png"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/SafeMP/"}
+  },
+  {
+    "title": "An Efficient Acyclic Contact Planner for Multiped Robots",
+    "authors": "S. Tonneau, A. Prete, J. Pettré, Chonhyon Park, Dinesh Manocha, N. Mansard",
+    "venue": "IEEE T-RO 2018",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/an-efficient-acyclic-contact-planner-for-multiped-.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/publication/688"}
+  },
+  {
+    "title": "Realtime Planning for High-DOF Deformable Bodies using Two-Stage Learning",
+    "authors": "Zherong Pan, Dinesh Manocha",
+    "venue": "ICRA 2018",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/realtime-planning-for-high-dof-deformable-bodies-u.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/publication/683"}
+  },
+  {
+    "title": "Intention-Aware Motion Planning Using Learning Based Human Motion Prediction",
+    "authors": "J. S. Park, Chonhyon Park, Dinesh Manocha",
+    "venue": "RSS 2017",
+    "topics": ["planning"],
+    "thumbnail": {"placeholder": "MP"},
+    "links": {"Webpage": "https://gamma.umd.edu/publication/676"}
+  },
+  {
+    "title": "Feedback Motion Planning for Liquid Pouring Using Supervised Learning",
+    "authors": "Zherong Pan, Dinesh Manocha",
+    "venue": "IROS 2017",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/feedback-motion-planning-for-liquid-pouring-using-.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/publication/667"}
+  },
+  {
+    "title": "Efficient Probabilistic Collision Detection for Non-Convex Shapes",
+    "authors": "J. S. Park, Chonhyon Park, Dinesh Manocha",
+    "venue": "ICRA 2017",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/efficient-probabilistic-collision-detection-for-no.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/publication/653"}
+  },
+  {
+    "title": "Parallel Motion Planning Using Poisson-Disk Sampling",
+    "venue": "IEEE T-RO 2016",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/parallel-motion-planning-using-poisson-disk-sampli.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/publication/645"}
+  },
+  {
+    "title": "Motion Planning for Fluid Manipulation using Simplified Dynamics",
+    "authors": "Zherong Pan, Dinesh Manocha",
+    "venue": "IROS 2016",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/motion-planning-for-fluid-manipulation-using-simpl.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/publication/633"}
+  },
+  {
+    "title": "Efficient Configuration Space Construction and Optimization for Motion Planning",
+    "authors": "Jia Pan, Dinesh Manocha",
+    "venue": "Engineering 2015",
+    "topics": ["planning"],
+    "thumbnail": {"placeholder": "MP"},
+    "links": {"Webpage": "http://engineering.org.cn/EN/10.15302/J-ENG-2015009"}
+  },
+  {
+    "title": "Parallel Cartesian Planning in Dynamic Environments using Constrained Trajectory Planning",
+    "authors": "Chonhyon Park, Florian Rabe, Shashank Sharma, Christian Scheurer, U. Zimmermann, Dinesh Manocha",
+    "venue": "Humanoids 2015",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/CaPlan/images/precomputation.png"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/CaPlan/"}
+  },
+  {
+    "title": "Faster Sample-based Motion Planning using Instance-based Learning",
+    "venue": "WAFR 2012",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/faster-sample-based-motion-planning-using-instance.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/IBL/"}
+  },
+  {
+    "title": "Collision-Free and Curvature Continuous Path Smoothing in Cluttered Environments",
+    "venue": "RSS 2011",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/collision-free-and-curvature-continuous-path-smoot.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/SPATH/"}
+  },
+  {
+    "title": "Efficient Local Planning Using Connection Collision Query",
+    "authors": "Min Tang, Young J. Kim, Dinesh Manocha",
+    "venue": "WAFR 2010",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://graphics.ewha.ac.kr/projects/details/CCQ/imgs/table.jpg"},
+    "links": {"Webpage": "http://graphics.ewha.ac.kr/CCQ/"}
+  },
+  {
+    "title": "Real-time Motion Planning and Global Navigation Using GPUs",
+    "venue": "Projects Collection",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/real-time-motion-planning-and-global-navigation-us.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/gplanner/"}
+  },
+  {
+    "title": "Constraint-based Motion Synthesis for Deformable Models",
+    "authors": "William J. Moss, Ming C. Lin, Dinesh Manocha",
+    "venue": "CASA 2008",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/DeformSynth/images/beara.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/DeformSynth/"}
+  },
+  {
+    "title": "Path Computation for Part Disassembly",
+    "venue": "CAD 2008",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/path-computation-for-part-disassembly.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/D-PLAN/"}
+  },
+  {
+    "title": "An Efficient Retraction-based RRT Planner",
+    "authors": "Liangjun Zhang, Dinesh Manocha",
+    "venue": "ICRA 2008",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/an-efficient-retraction-based-rrt-planner.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/RRRT/"}
+  },
+  {
+    "title": "Complete Motion Planning",
+    "venue": "Projects Collection",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/complete-motion-planning.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/NOPATH/"}
+  },
+  {
+    "title": "Physics-based Motion Planning",
+    "venue": "Projects Collection",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/PHYSMP/allimageslong.png"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/PHYSMP/"}
+  },
+  {
+    "title": "Practical Local Planning in the Contact Space",
+    "authors": "S. Redon, Ming C. Lin",
+    "venue": "ICRA 2005",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/practical-local-planning-in-the-contact-space.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/CSPlanning/"}
+  },
+  {
+    "title": "Constraint-Based Motion Planning of Deformable Robots",
+    "venue": "ICRA 2005",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/DPLAN/Media/WallLong.png"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/DPLAN/"}
+  },
+  {
+    "title": "Path Planning for Deformable Robots",
+    "authors": "Russell Gayle, P. Segars, Ming C. Lin, Dinesh Manocha",
+    "venue": "RSS 2005",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/FlexiPlan/Media/end_path.png"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/FlexiPlan/"}
+  },
+  {
+    "title": "Interactive Navigation Using Path Planning",
+    "venue": "I3D 2003",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/interactive-navigation-using-path-planning.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/NAVPATH/"}
+  },
+  {
+    "title": "Constraint-Based Motion Planning for Virtual Prototyping",
+    "authors": "Maxim Garber, Ming C. Lin",
+    "venue": "WAFR 2002",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/constraint-based-motion-planning-for-virtual-proto.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/CPLAN/"}
+  },
+  {
+    "title": "V-Plan: A Voronoi-Based Hybrid Motion Planner",
+    "venue": "IROS 2001",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/VORONOI/VPLAN/Images/piano_scene_tilted.gif"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/VORONOI/VPLAN/"}
+  },
+  {
+    "title": "Randomized Path Planning",
+    "venue": "WAFR 2000",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/randomized-path-planning.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/Planner/"}
+  },
+  {
+    "title": "Motion Planning Using Generalized Voronoi Diagrams",
+    "venue": "Tec. Report 1999",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/motion-planning-using-generalized-voronoi-diagrams.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/VORONOI/icra2k_paper/"}
+  },
+  {
+    "title": "Smooth Navigation for Multiple Differential-drive Robots",
+    "venue": "SER 2012",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/ORCA-AVO-DD/images/ORCA-AVO-DD-1.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/ORCA-AVO-DD/"}
+  },
+  {
+    "title": "Reciprocal Collision Avoidance with Acceleration-velocity Obstacles",
+    "authors": "Jur P. van den Berg, J. Snape, S. Guy, Dinesh Manocha",
+    "venue": "ICRA 2011",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/AVO/images/AVO-1.png"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/AVO/"}
+  },
+  {
+    "title": "Navigating Multiple Simple-airplanes in 3D Workspace",
+    "authors": "J. Snape, Dinesh Manocha",
+    "venue": "ICRA 2010",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/S-AIRPLANE/images/S-AIRPLANE-SPHERE.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/S-AIRPLANE/"}
+  },
+  {
+    "title": "The Hybrid Reciprocal Velocity Obstacle",
+    "venue": "ICRA 2009",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/HRVO/images/HRVO-1-Large.png"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/HRVO/"}
+  },
+  {
+    "title": "Generalized Velocity Obstacles",
+    "authors": "David Wilkie, Jur P. van den Berg, Dinesh Manocha",
+    "venue": "IROS 2009",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/generalized-velocity-obstacles.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/NHRVO/"}
+  },
+  {
+    "title": "Multi-robot Coordination and Planning",
+    "venue": "ICRA 2009",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/CSP/media/guard-goal.png"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/CSP/"}
+  },
+  {
+    "title": "Reciprocal Velocity Obstacles",
+    "venue": "ICRA 2008",
+    "topics": ["planning"],
+    "thumbnail": {"src": "assets/papers/reciprocal-velocity-obstacles.jpg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/RVO/"}
+  },
+  {
+    "title": "Reactive Deforming Roadmaps",
+    "venue": "IROS 2007",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/RDR/media/crowd-demo.png"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/RDR/"}
+  },
+  {
+    "title": "Smooth and Dynamically Stable Navigation of Multiple Human-Like Robots",
+    "authors": "Chonhyon Park, Dinesh Manocha",
+    "venue": "WAFR 2014",
+    "topics": ["planning"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/MultiRobot/images/exp_exchange.png"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/MultiRobot"}
+  },
+  {
+    "title": "Fabric Material Recovery from Video Using Multi-Scale Geometric Auto-Encoder",
+    "authors": "Junbang Liang, Ming C. Lin",
+    "venue": "ECCV 2022",
+    "topics": ["physics"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/virtualtryon/eccv22.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/virtualtryon/fabric_estimation"}
+  },
+  {
+    "title": "Predicting Loose-Fitting Garment Deformations Using Bone-Driven Motion Networks",
+    "authors": "Xiaoyu Pan, Jiaming Mai, Xinwei Jiang, Dongxue Tang, Jingxiang Li, Tian-Jia Shao, Kun Zhou, Xiaogang Jin, Dinesh Manocha",
+    "venue": "SIGGRAPH 2022",
+    "topics": ["physics"],
+    "thumbnail": {"src": "assets/papers/predicting-loose-fitting-garment-deformations-usin.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/virtualtryon/loose_fitting"}
+  },
+  {
+    "title": "P-Cloth: Interactive Complex Cloth Simulation on Multi-GPU Systems using Dynamic Matrix Assembly and Pipelined Implicit Integrators",
+    "authors": "Cheng Li, Min Tang, Ruofeng Tong, Ming Cai, Jieyi Zhao, Dinesh Manocha",
+    "venue": "ACM TOG 2020",
+    "topics": ["physics"],
+    "thumbnail": {"src": "assets/papers/p-cloth.jpg"},
+    "links": {"Webpage": "https://min-tang.github.io/PCloth/"}
+  },
+  {
+    "title": "GAN-based Garment Generation Using Sewing Pattern Images",
+    "authors": "Yu Shen, Junbang Liang, Ming C. Lin",
+    "venue": "ECCV 2020",
+    "topics": ["physics"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/virtualtryon/garmentgeneration/inference_process.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/virtualtryon/garmentgeneration/"}
+  },
+  {
+    "title": "Shape-Aware Human Pose and Shape Reconstruction Using Multi-View Images",
+    "authors": "Junbang Liang, Ming C. Lin",
+    "venue": "ICCV 2019",
+    "topics": ["physics"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/virtualtryon/newpipeline.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/virtualtryon/humanmultiview"}
+  },
+  {
+    "title": "Time-Domain Parallelization for Accelerating Cloth Simulation",
+    "authors": "Junbang Liang, Ming C. Lin",
+    "venue": "SCA 2018",
+    "topics": ["physics"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/TParallelCloth/SCA_2018.jpeg"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/TParallelCloth"}
+  },
+  {
+    "title": "Physics-Inspired Garment Recovery from a Single-View Image",
+    "authors": "Shan Yang, Tanya Ambert, Zherong Pan, Ke Wang, Licheng Yu, Tamara Berg, Ming C. Lin",
+    "venue": "TOG 2018",
+    "topics": ["physics"],
+    "thumbnail": {"src": "assets/papers/garment-recovery.jpg"},
+    "links": {"Paper": "https://arxiv.org/abs/1608.01250"}
+  },
+  {
+    "title": "I-Cloth: Incremental Collision Handling for GPU-Based Interactive Cloth Simulation",
+    "authors": "Min Tang, Tongtong Wang, Zhongyuan Liu, Ruofeng Tong, Dinesh Manocha",
+    "venue": "ACM TOG 2018",
+    "topics": ["physics"],
+    "thumbnail": {"src": "assets/papers/i-cloth.jpg"},
+    "links": {"Webpage": "https://min-tang.github.io/ICloth/"}
+  },
+  {
+    "title": "Learning-based Cloth Material Recovery from Video",
+    "authors": "Shan Yang, Junbang Liang, Ming C. Lin",
+    "venue": "ICCV 2017",
+    "topics": ["physics"],
+    "thumbnail": {"src": "https://gamma.cs.unc.edu/VideoCloth/img/teaser.png"},
+    "links": {"Webpage": "http://gamma.cs.unc.edu/VideoCloth"}
+  },
+  {
+    "title": "DAVE: Diverse Atomic Visual Elements Dataset with High Representation of Vulnerable Road Users in Complex and Unpredictable Environments",
+    "authors": "Xijun Wang, Pedro Sandoval-Segura, Cheng-Yuan Zhang, Jun-Yun Huang, Tian-Rui Guan, Ruiqi Xian, Fuxiao Liu, Rohan Chandra, Boqing Gong, Dinesh Manocha",
+    "venue": "Under Review 2024",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/dave_img.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/dave"}
+  },
+  {
+    "title": "Task-Driven Domain-Agnostic Learning with Information Bottleneck for Autonomous Steering",
+    "venue": "ICRA 2024",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://cs.umd.edu/~yushen/images/ICRA2024.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/tddal_transfer"}
+  },
+  {
+    "title": "Auxiliary Modality Learning with Generalized Curriculum Distillation",
+    "authors": "Yu-cui Shen, Xijun Wang, Peng Gao, Ming C. Lin",
+    "venue": "ICML 2023",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://cs.umd.edu/~yushen/images/ICML2023.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/amdnet"}
+  },
+  {
+    "title": "METEOR: A Massive Dense & Heterogeneous Behavior Dataset for Autonomous Driving",
+    "authors": "Rohan Chandra, Mridul Mahajan, R. Kala, Rishitha Palugulla, Chandrababu Naidu, Alok Jain, Dinesh Manocha",
+    "venue": "ICRA 2023",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/METEOR/mind_map.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/meteor"}
+  },
+  {
+    "title": "Human Trajectory Prediction via Neural Social Physics",
+    "authors": "Jiangbei Yue, Dinesh Manocha, He Wang",
+    "venue": "ECCV 2022",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/human-trajectory-prediction-via-neural-social-phys.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/neuralsocial"}
+  },
+  {
+    "title": "M3DeTR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers",
+    "authors": "Tian-Rui Guan, Jun Wang, Shiyi Lan, Rohan Chandra, Zu-Xuan Wu, Larry S. Davis, Dinesh Manocha",
+    "venue": "WACV 2022",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/acmmm2021/coverpic-1.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/m3detr"}
+  },
+  {
+    "title": "GameOpt: Optimal Real-time Multi-Agent Planning and Control for Dynamic Intersections",
+    "authors": "Nilesh Suriyarachchi, Rohan Chandra, J. Baras, Dinesh Manocha",
+    "venue": "ITSC 2022",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/gameopt.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/gameopt"}
+  },
+  {
+    "title": "Inverse Reinforcement Learning with Hybrid-weight Trust-region Optimization and Curriculum Learning for Autonomous Maneuvering",
+    "venue": "IROS 2022",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://cs.umd.edu/~yushen/images/IROS2022.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/eirl"}
+  },
+  {
+    "title": "Gradient-Free Adversarial Training Against Image Corruption for Learning-based Steering",
+    "authors": "Yu Shen, L. Zheng, Manli Shu, Wei-Zi Li, T. Goldstein, Ming C. Lin",
+    "venue": "NeurIPS 2021",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://cs.umd.edu/~yushen/images/NIPS2021.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/visionrobustlearning"}
+  },
+  {
+    "title": "B-GAP: Behavior-Rich Simulation and Navigation for Autonomous Driving",
+    "authors": "A. Mavrogiannis, Rohan Chandra, Dinesh Manocha",
+    "venue": "RA-L 2020",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/bgap_offline.PNG"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/bgap"}
+  },
+  {
+    "title": "Improving Generalization of Transfer Learning Across Domains Using Latent Features in Autonomous Driving",
+    "authors": "Shivam Akhauri, L. Zheng, T. Goldstein, Ming C. Lin",
+    "venue": "Under Review 2021",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/improving-generalization-of-transfer-learning-acro.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/stltransfer"}
+  },
+  {
+    "title": "SS-SFDA : Self-Supervised Source-Free Domain Adaptation for Road Segmentation in Hazardous Environments",
+    "authors": "D. Kothandaraman, Rohan Chandra, Dinesh Manocha",
+    "venue": "ICCV 2021",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/ss-sfda.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/weatherSAfE"}
+  },
+  {
+    "title": "BoMuDA: Boundless Multi-Source Domain Adaptive Segmentation in Unconstrained Environments",
+    "authors": "D. Kothandaraman, Rohan Chandra, Dinesh Manocha",
+    "venue": "ICCV 2021",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/BoMuDA.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/bomuda"}
+  },
+  {
+    "title": "Enhanced Transfer Learning for Autonomous Driving with Systematic Accident Simulation",
+    "authors": "Shivam Akhauri, L. Zheng, Ming C. Lin",
+    "venue": "IROS 2020",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/etladsas.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/etladsas"}
+  },
+  {
+    "title": "CMetric: A Driving Behavior Measure using Centrality Functions",
+    "authors": "Rohan Chandra, Uttaran Bhattacharya, Trisha Mittal, Aniket Bera, Dinesh Manocha",
+    "venue": "IROS 2020",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/cmetric_network.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/cmetric"}
+  },
+  {
+    "title": "Forecasting Trajectory and Behavior of Road-Agents Using Spectral Clustering in Graph-LSTMs",
+    "authors": "Rohan Chandra, Tian-Rui Guan, S. Panuganti, Trisha Mittal, Uttaran Bhattacharya, Aniket Bera, Dinesh Manocha",
+    "venue": "RAL/IROS 2020",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/CVPR_network.jpeg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/spectralcows"}
+  },
+  {
+    "title": "GraphRQI: Classifying Driver Behaviors Using Graph Spectrums",
+    "authors": "Rohan Chandra, Uttaran Bhattacharya, Trisha Mittal, Xiaoyu Li, Aniket Bera, Dinesh Manocha",
+    "venue": "ICRA 2020",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/graphrqi.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/graphrqi"}
+  },
+  {
+    "title": "RoadTrack: Tracking Road-Agents in Dense and Heterogeneous Traffic",
+    "venue": "ICRA 2020",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/roadtrack.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/roadtrack"}
+  },
+  {
+    "title": "RobustTP: End-to-End Trajectory Prediction for Heterogeneous Road-Agents in Dense Traffic with Noisy Sensor Inputs",
+    "authors": "Rohan Chandra, Uttaran Bhattacharya, Christian Roncal, Aniket Bera, Dinesh Manocha",
+    "venue": "ACM CSCS 2019",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/robusttp.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/robusttp"}
+  },
+  {
+    "title": "AADS: Augmented Autonomous Driving Simulation Using Data-Driven Algorithms",
+    "authors": "Wei Li, Cheng-Wei Pan, Rong Zhang, Jia-Ping Ren, Yue-Xin Ma, Jin Fang, Fei-Long Yan, Qi-Chuan Geng, Xin-Yu Huang, H. Gong, Wei-Wei Xu, Guo-Ping Wang, Dinesh Manocha, Rui-Gang Yang",
+    "venue": "Science Robotics 2019",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/aads.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/aads"}
+  },
+  {
+    "title": "TraPHic: Predicting trajectories of Road-Agents in Dense and Heterogeneous Traffic",
+    "venue": "CVPR 2019",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/TraPHic.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/traphic"}
+  },
+  {
+    "title": "ADAPS: Autonomous Driving Via Principled Simulations",
+    "authors": "Wei-Zi Li, D. Wolinski, Ming C. Lin",
+    "venue": "ICRA 2019",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/adaps.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/adaps"}
+  },
+  {
+    "title": "TrafficPredict: Trajectory Prediction for Heterogeneous Agents",
+    "venue": "AAAI 2019",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/tp.png"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/tp"}
+  },
+  {
+    "title": "Identifying Driver Behaviors using Trajectory Features for Vehicle Navigation",
+    "authors": "E. Cheung, Aniket Bera, Emily Kubin, Kurt Gray, Dinesh Manocha",
+    "venue": "IROS 2018",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/identifying-driver-behaviors-using-trajectory-feat.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/ernestetaliros18"}
+  },
+  {
+    "title": "Socially Invisible Robot: Navigation in the Social World using Robot Entitativity",
+    "authors": "Aniket Bera, Tanmay Randhavane, Emily Kubin, Austin S. Wang, Kurt Gray, Dinesh Manocha",
+    "venue": "IROS 2018",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/socially-invisible-robot.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/sir"}
+  },
+  {
+    "title": "Socially Invisible Navigation for Intelligent Vehicles",
+    "authors": "Aniket Bera, Tanmay Randhavane, Emily Kubin, Austin S. Wang, Kurt Gray, Dinesh Manocha",
+    "venue": "IROS 2018",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/socially-invisible-navigation-for-intelligent-vehi.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/sirav"}
+  },
+  {
+    "title": "Classifying Driver Behaviors for Autonomous Vehicle Navigation",
+    "authors": "E. Cheung, Aniket Bera, Emily Kubin, Kurt Gray, Dinesh Manocha",
+    "venue": "IROS 2018",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/classifying-driver-behaviors-for-autonomous-vehicl.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/driverbehavior"}
+  },
+  {
+    "title": "AutonoVi: Autonomous vehicle planning with dynamic maneuvers and traffic constraints",
+    "venue": "IROS 2017, CVPR 2018",
+    "topics": ["navigation"],
+    "thumbnail": {"src": "assets/papers/autonovi.jpg"},
+    "links": {"Webpage": "https://gamma.umd.edu/researchdirections/autonomousdriving/autonovi"}
+  }
+]
