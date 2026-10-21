@@ -96,6 +96,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 .research-area-card::after { position: absolute; inset: 25% 0 0; background: linear-gradient(transparent,rgba(17,20,18,.9)); content: ""; }
 .research-area-card img, .research-area-card video { position: absolute; width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; }
 .research-area-card video { pointer-events: none; }
+.research-area-media { position: absolute; inset: 0; }
+.research-area-media-split { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); }
+.research-area-shot { position: relative; min-width: 0; overflow: hidden; }
+.research-area-shot + .research-area-shot { border-left: 2px solid rgba(255,255,255,.7); }
+.research-area-shot:first-child video { object-position: 68% center; }
 .research-area-card:hover { text-decoration: none; }
 .research-area-card:hover img, .research-area-card:hover video { transform: scale(1.025); }
 .research-area-card span { position: absolute; z-index: 1; right: 18px; bottom: 16px; left: 18px; }

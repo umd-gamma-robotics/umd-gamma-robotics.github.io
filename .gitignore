@@ -1,3 +1,6 @@
 # macOS Finder metadata
 .DS_Store
 **/.DS_Store
+
+# Local source footage (the optimized web derivative is committed instead)
+assets/videos/GQ 2024 demo.mp4
