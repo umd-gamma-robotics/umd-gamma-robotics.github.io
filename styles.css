@@ -86,6 +86,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .slide-dots span.is-active { background: #fff; }
 
 .research-areas { padding: 43px 30px 48px; }
+#profile + .research-areas { padding-top: 0; }
 .section-heading { display: flex; margin-bottom: 25px; justify-content: space-between; gap: 24px; align-items: end; }
 .section-heading h2 { margin-bottom: 4px; font-size: 1.55em; }
 .section-heading p { color: #888; font-size: .92em; }
@@ -130,6 +131,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .news-source { margin-top: 18px; color: #888; font-size: .88em; }
 
 .divider { width: 100%; border-bottom: 1px solid var(--line); }
+.divider + .gallery { margin-top: 48px; }
 .home-about { max-width: 680px; padding: 55px 30px 75px; }
 .home-about h2 { margin-bottom: 12px; font-size: 1.55em; }
 .home-about p { margin-bottom: 18px; }
@@ -287,6 +289,7 @@ footer { display: flex; padding: 22px 0 30px; border-top: 1px solid var(--line);
   #nav a { padding: 3px 0; }
   #profile { padding: 94px 12px 42px; }
   .gallery { margin: 0 0 36px; aspect-ratio: 4 / 3; }
+  .divider + .gallery { margin-top: 36px; }
   .news-section, .pi-section, .research-areas { padding-right: 12px; padding-left: 12px; }
   .section-heading { align-items: start; flex-direction: column; gap: 10px; }
   .research-area-grid { grid-template-columns: 1fr; gap: 15px; }
