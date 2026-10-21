@@ -43,6 +43,30 @@ if (slideshow) {
   start();
 }
 
+const cardVideos = Array.from(document.querySelectorAll('[data-card-video]'));
+
+if (cardVideos.length) {
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (!reducedMotion && 'IntersectionObserver' in window) {
+    const videoObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(({ isIntersecting, target }) => {
+          if (isIntersecting && !document.hidden) target.play().catch(() => {});
+          else target.pause();
+        });
+      },
+      { rootMargin: '120px 0px', threshold: 0.15 }
+    );
+
+    cardVideos.forEach((video) => videoObserver.observe(video));
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) cardVideos.forEach((video) => video.pause());
+      else cardVideos.filter((video) => video.getBoundingClientRect().top < window.innerHeight && video.getBoundingClientRect().bottom > 0).forEach((video) => video.play().catch(() => {}));
+    });
+  }
+}
+
 document.querySelectorAll('[data-year]').forEach((element) => {
   element.textContent = new Date().getFullYear();
 });
@@ -108,35 +132,76 @@ if (publicationList) {
     topicList.className = 'publication-topic-list';
     topicList.hidden = true;
 
+    const publicationArea = (row) => {
+      const legacyTopics = (row.dataset.topics ?? '').split(' ');
+      const text = (row.querySelector('h2')?.textContent ?? '').toLowerCase();
+      const links = Array.from(row.querySelectorAll('a')).map((anchor) => anchor.href).join(' ').toLowerCase();
+      const matches = (pattern) => pattern.test(text);
+
+      if (legacyTopics.includes('vision') || legacyTopics.includes('aerial')) return 'perception';
+      if (legacyTopics.includes('physics')) return 'simulation';
+
+      if (legacyTopics.includes('planning')) {
+        return matches(/crowd|pedestrian|social|human[- ]robot|multi[- ]robot|multiple .*robot|reciprocal|velocity obstacle/)
+          ? 'multiagent'
+          : 'simulation';
+      }
+
+      if (matches(/crowd|pedestrian|social|multi[- ]agent|multi[- ]robot|swarm|traffic|autonomous driv|vehicle|road[- ]agent|intersection|flock|collective behavior|group cohesion|rvo|orca/) || links.includes('/autonomousdriving/')) return 'multiagent';
+      if (matches(/foundation model|vision.language|\bvlms?\b|\bllms?\b|\bvlas?\b|embodied|locomotion|gait|quadruped|curriculum learning|object navigation|target finding|agentic|human preference|reinforcement learning|policy learning/)) return 'embodied';
+      if (matches(/physical property estimation/)) return 'simulation';
+      if (matches(/robot navigation|outdoor navigation|terrain navigation|traversability|trajectory generator|navigation in .* environment|navigation using|mapless navigation|obstacle detection/)) return 'navigation';
+      if (matches(/3d object detection|segmentation|scene completion|depth|gaussian splatting|physical property estimation|localization|place recognition|mapping/)) return 'perception';
+
+      return 'navigation';
+    };
+
     topicLinks.forEach((link) => {
       const key = link.dataset.topic;
       const rows = Array.from(publicationList.children).filter((row) =>
-        (row.dataset.topics ?? '').split(' ').includes(key)
+        publicationArea(row) === key
       );
       const section = document.createElement('section');
       section.className = 'publication-topic';
       section.id = `topic-${key}`;
       const heading = document.createElement('h2');
       heading.textContent = link.textContent;
+      const description = document.createElement('p');
+      description.className = 'publication-topic-description';
+      description.textContent = link.dataset.description ?? '';
       const list = document.createElement('div');
       list.className = 'publication-list';
       rows.forEach((row) => list.append(row.cloneNode(true)));
-      section.append(heading, list);
+      section.append(heading, description, list);
       topicList.append(section);
     });
 
     publicationList.after(topicList);
 
-    const showView = (view) => {
+    const showView = (view, topic = null) => {
       publicationList.hidden = view !== 'date';
       topicList.hidden = view !== 'topic';
-      viewLinks.forEach((link) => link.classList.toggle('active', link.dataset.view === view));
+      viewLinks.forEach((link) => {
+        const active = link.dataset.view === view;
+        link.classList.toggle('active', active);
+        if (active) link.setAttribute('aria-current', 'page');
+        else link.removeAttribute('aria-current');
+      });
+      topicLinks.forEach((link) => {
+        const active = view === 'topic' && link.dataset.topic === topic;
+        link.classList.toggle('active', active);
+        if (active) link.setAttribute('aria-current', 'page');
+        else link.removeAttribute('aria-current');
+      });
+      Array.from(topicList.children).forEach((section) => {
+        section.hidden = view !== 'topic' || section.id !== `topic-${topic}`;
+      });
     };
 
     const applyHash = () => {
       const hash = window.location.hash.slice(1);
-      if (hash.startsWith('topic')) {
-        showView('topic');
+      if (hash.startsWith('topic-')) {
+        showView('topic', hash.replace('topic-', ''));
         document.getElementById(hash)?.scrollIntoView();
       } else {
         showView('date');
@@ -146,4 +211,28 @@ if (publicationList) {
     window.addEventListener('hashchange', applyHash);
     applyHash();
   }
+}
+
+const researchTabs = Array.from(document.querySelectorAll('[data-research-view]'));
+const researchPanels = Array.from(document.querySelectorAll('[data-research-panel]'));
+
+if (researchTabs.length && researchPanels.length) {
+  const applyResearchHash = () => {
+    const hash = window.location.hash.slice(1);
+    const views = researchTabs.map((tab) => tab.dataset.researchView);
+    const view = views.includes(hash) ? hash : views[0];
+
+    researchTabs.forEach((tab) => {
+      const active = tab.dataset.researchView === view;
+      tab.classList.toggle('active', active);
+      if (active) tab.setAttribute('aria-current', 'page');
+      else tab.removeAttribute('aria-current');
+    });
+    researchPanels.forEach((panel) => {
+      panel.hidden = panel.dataset.researchPanel !== view;
+    });
+  };
+
+  window.addEventListener('hashchange', applyResearchHash);
+  applyResearchHash();
 }

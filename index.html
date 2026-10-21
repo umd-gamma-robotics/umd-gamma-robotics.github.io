@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#ffffff" />
     <title>GAMMA Robotics · University of Maryland</title>
     <link rel="stylesheet" href="fonts.css" />
-    <link rel="stylesheet" href="styles.css?v=11" />
+    <link rel="stylesheet" href="styles.css?v=15" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   </head>
   <body>
@@ -20,6 +20,7 @@
         <a class="active" href="index.html" aria-current="page">Home</a>
         <a href="people.html">People</a>
         <a href="research.html">Research</a>
+        <a href="software.html">Software &amp; Datasets</a>
       </nav>
     </header>
 
@@ -37,17 +38,23 @@
             <a class="social-link" href="https://www.youtube.com/@gammaumd" target="_blank" rel="noreferrer" aria-label="GAMMA on YouTube" title="GAMMA on YouTube">
               <svg viewBox="0 0 28 20" width="28" height="20" aria-hidden="true"><rect width="28" height="20" rx="5" fill="#e00"/><path fill="#fff" d="M11 5.5v9l8-4.5z"/></svg><span>YouTube</span>
             </a>
-            <a class="social-link" href="https://gamma.umd.edu/" target="_blank" rel="noreferrer" title="Old GAMMA website">
+            <!-- <a class="social-link" href="https://gamma.umd.edu/" target="_blank" rel="noreferrer" title="Old GAMMA website">
               <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.8 5.6 3.8 9s-1.2 6.4-3.8 9M12 3c-2.6 2.6-3.8 5.6-3.8 9s1.2 6.4 3.8 9"/></g></svg><span>Old website: gamma.umd.edu</span>
-            </a>
+            </a> -->
           </p>
         </div>
       </section>
 
-      <section class="gallery" aria-label="Life in the lab" data-slideshow>
+      <section class="gallery" aria-label="GAMMA robotics research and life in the lab" data-slideshow>
         <div class="slides">
+          <!-- Source: https://yohanabeysinghe.github.io/vega_website/ -->
+          <figure class="slide slide-fit"><img src="assets/gallery/research-vega.jpg" alt="VEGA navigation experiments with a quadruped robot indoors and outdoors" /></figure>
           <figure class="slide"><img src="assets/gallery/lab-conference.jpg" alt="GAMMA lab members together at CVPR" /></figure>
+          <!-- Source: https://jingliangc.github.io/outdoor_navigation/tgs/ -->
+          <figure class="slide slide-fit"><img src="assets/gallery/research-vl-tgs.jpg" alt="A wheeled robot performing mapless outdoor navigation in the VL-TGS project" loading="lazy" /></figure>
           <figure class="slide"><img src="assets/gallery/lab-group-outdoor.jpg" alt="GAMMA lab members in a group photo outside a building at dusk" loading="lazy" /></figure>
+          <!-- Source: https://jingliangc.github.io/outdoor_navigation/mosu/ -->
+          <figure class="slide slide-fit"><img src="assets/gallery/research-mosu.jpg" alt="Wheeled and legged robots navigating varied outdoor environments in the MOSU project" loading="lazy" /></figure>
           <figure class="slide slide-fit"><img src="assets/gallery/lab-backyard.jpg" alt="GAMMA lab members in a group photo at The Backyard" loading="lazy" /></figure>
           <figure class="slide"><img src="assets/gallery/lab-group-2024.jpg" alt="Large GAMMA group photo outside a building at night" loading="lazy" /></figure>
           <figure class="slide"><img src="assets/gallery/lab-dinner-2024.jpg" alt="GAMMA lab members with Ming Lin and Dinesh Manocha at a dinner" loading="lazy" /></figure>
@@ -57,6 +64,8 @@
           <figure class="slide"><img src="assets/gallery/lab-sunset.jpg" alt="GAMMA lab members at sunset under palm trees" loading="lazy" /></figure>
           <figure class="slide"><img src="assets/gallery/lab-night-gathering.jpg" alt="GAMMA lab members at an evening gathering under string lights" loading="lazy" /></figure>
           <figure class="slide"><img src="assets/gallery/lab-office.jpg" alt="A GAMMA lab member working at a desk in the lab" loading="lazy" /></figure>
+          <!-- Source: https://robotixx.github.io/GND/ -->
+          <figure class="slide"><img src="assets/gallery/research-gnd.jpg" alt="The sensor-equipped Clearpath Jackal robot used to collect the Global Navigation Dataset" loading="lazy" /></figure>
           <figure class="slide"><img src="assets/gallery/lab-fountain.jpg" alt="GAMMA lab members sitting by a fountain" loading="lazy" /></figure>
           <figure class="slide slide-fit"><img src="assets/gallery/research-group-new.jpg" alt="GAMMA team with a mobile robot" loading="lazy" /></figure>
         </div>
@@ -64,6 +73,45 @@
       </section>
 
       <div class="divider"></div>
+
+      <section class="research-areas" aria-labelledby="research-areas-title">
+        <div class="section-heading">
+          <div>
+            <h2 id="research-areas-title">Research Areas</h2>
+            <p>Explore our papers and project pages by theme.</p>
+          </div>
+          <a href="research.html#all">View all research →</a>
+        </div>
+        <div class="research-area-grid">
+          <a class="research-area-card research-area-card-wide" href="research.html#topic-embodied">
+            <!-- Source: https://prakharmishra27.github.io/MorFiC/ -->
+            <video muted loop playsinline preload="metadata" poster="assets/videos/morfic.jpg" data-card-video aria-hidden="true"><source src="assets/videos/morfic.mp4" type="video/mp4" /></video>
+            <span><strong>Embodied AI &amp; Robot Learning</strong><small>Foundation models, vision-language-action systems, locomotion, and adaptive learning</small></span>
+          </a>
+          <a class="research-area-card" href="research.html#topic-navigation">
+            <!-- Source: https://splatblox.github.io/ -->
+            <video muted loop playsinline preload="metadata" poster="assets/videos/splatblox.jpg" data-card-video aria-hidden="true"><source src="assets/videos/splatblox.mp4" type="video/mp4" /></video>
+            <span><strong>Robot Navigation &amp; Field Robotics</strong><small>Robust autonomy across indoor, outdoor, and unstructured environments</small></span>
+          </a>
+          <a class="research-area-card" href="research.html#topic-multiagent">
+            <!-- Source: https://openvo.github.io/ -->
+            <video muted loop playsinline preload="metadata" poster="assets/videos/openvo.jpg" data-card-video aria-hidden="true"><source src="assets/videos/openvo.mp4" type="video/mp4" /></video>
+            <span><strong>Multi-Agent Systems &amp; Human-Centered Autonomy</strong><small>Crowds, social navigation, swarms, traffic, and autonomous driving</small></span>
+          </a>
+          <a class="research-area-card" href="research.html#topic-perception">
+            <!-- Source: https://uav4d.github.io/ -->
+            <video muted loop playsinline preload="metadata" poster="assets/videos/uav4d.jpg" data-card-video aria-hidden="true"><source src="assets/videos/uav4d.mp4" type="video/mp4" /></video>
+            <span><strong>3D Perception &amp; Aerial Intelligence</strong><small>3D reconstruction, neural rendering, scene understanding, and aerial video</small></span>
+          </a>
+          <a class="research-area-card" href="research.html#topic-simulation">
+            <!-- Source: https://rocktimjyotidas.github.io/projects/SLAT-Phys/ -->
+            <video muted loop playsinline preload="metadata" poster="assets/videos/slat-phys.jpg" data-card-video aria-hidden="true"><source src="assets/videos/slat-phys.mp4" type="video/mp4" /></video>
+            <span><strong>Simulation, Graphics &amp; Motion Planning</strong><small>Physics-based learning, geometric computing, animation, and planning</small></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- <div class="divider"></div>
 
       <section class="pi-section" aria-labelledby="pi-title">
         <h2 id="pi-title">Principal Investigators</h2>
@@ -85,12 +133,12 @@
             <p class="pi-links"><a href="mailto:lin@umd.edu">lin@umd.edu</a> · <a href="https://www.cs.umd.edu/~lin/" target="_blank" rel="noreferrer">Homepage</a> · <a href="https://www.cs.umd.edu/people/lin" target="_blank" rel="noreferrer">UMD profile</a> · <a href="https://en.wikipedia.org/wiki/Ming_C._Lin" target="_blank" rel="noreferrer">Wikipedia</a></p>
           </div>
         </article>
-      </section>
+      </section> -->
 
       <div class="divider"></div>
 
       <section class="news-section" aria-labelledby="news-title">
-        <h2 id="news-title">Media Coverage</h2>
+        <h2 id="news-title">News</h2>
         <ul class="news-list">
           <li><time datetime="2026-04">Apr 2026</time><a href="https://www.ieee-ras.org/2026-ieee-ras-award-recipients-announced/" target="_blank" rel="noreferrer">Lin and Manocha receive the 2026 IEEE ICRA Most Influential Paper Award</a><span>IEEE RAS</span></li>
           <li><time datetime="2025-08">Aug 2025</time><a href="https://isr.umd.edu/news/story/new-research-helps-robots-grasp-situational-context" target="_blank" rel="noreferrer">New research helps robots grasp situational context</a><span>UMD ISR</span></li>
@@ -140,6 +188,6 @@
       <span>© <span data-year></span> GAMMA Robotics · University of Maryland</span>
       <span class="footer-links"><a href="https://gamma.umd.edu/" target="_blank" rel="noreferrer">Old GAMMA website (gamma.umd.edu)</a> · <a href="mailto:dmanocha@umd.edu">Contact</a></span>
     </footer>
-    <script src="script.js?v=6"></script>
+    <script src="script.js?v=10"></script>
   </body>
 </html>

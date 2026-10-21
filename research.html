@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#ffffff" />
     <title>Research · GAMMA Robotics</title>
     <link rel="stylesheet" href="fonts.css" />
-    <link rel="stylesheet" href="styles.css?v=11" />
+    <link rel="stylesheet" href="styles.css?v=14" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   </head>
   <body>
@@ -17,22 +17,66 @@
       <a class="site-name" href="index.html">GAMMA Robotics</a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav" data-menu>Menu</button>
       <nav id="nav" aria-label="Primary navigation">
-        <a href="index.html">Home</a><a href="people.html">People</a><a class="active" href="research.html" aria-current="page">Research</a>
+        <a href="index.html">Home</a><a href="people.html">People</a><a class="active" href="research.html" aria-current="page">Research</a><a href="software.html">Software &amp; Datasets</a>
       </nav>
     </header>
 
     <main id="content" class="page publication-page">
       <section class="page-intro">
         <h1>Research</h1>
-        <nav class="publication-filter" aria-label="Research topics">
-          <p>Show all <a href="#all" data-view="date">by date</a> / <a href="#topics" data-view="topic">by topic</a></p>
-          <p>Current research topics: <a href="#topic-navigation" data-topic="navigation">Robotic Navigation</a> / <a href="#topic-physics" data-topic="physics">Physics-Based Simulation</a> / <a href="#topic-vision" data-topic="vision">3D Reconstruction and Generation</a> / <a href="#topic-aerial" data-topic="aerial">Aerial Videos</a></p>
-          <p>Past research topic: <a href="#topic-planning" data-topic="planning">Motion and Path Planning</a></p>
+        <p class="research-intro">Browse the full publication archive or focus on one of our main research areas.</p>
+        <nav class="research-tabs publication-filter research-area-tabs" aria-label="Research areas">
+          <a class="active" href="#all" data-view="date" aria-current="page">All Research</a>
+          <a href="#topic-embodied" data-topic="embodied" data-description="Foundation models, vision-language-action systems, locomotion, and adaptive robot learning.">Embodied AI &amp; Robot Learning</a>
+          <a href="#topic-navigation" data-topic="navigation" data-description="Robust navigation and autonomy across indoor, outdoor, and unstructured environments.">Robot Navigation &amp; Field Robotics</a>
+          <a href="#topic-multiagent" data-topic="multiagent" data-description="Multi-robot coordination, crowds, social navigation, traffic, and autonomous driving.">Multi-Agent Systems &amp; Human-Centered Autonomy</a>
+          <a href="#topic-perception" data-topic="perception" data-description="3D reconstruction, neural rendering, scene understanding, localization, and aerial video.">3D Perception &amp; Aerial Intelligence</a>
+          <a href="#topic-simulation" data-topic="simulation" data-description="Physics-based learning, geometric computing, animation, collision handling, and motion planning.">Simulation, Graphics &amp; Motion Planning</a>
         </nav>
       </section>
 
       <section class="paper-section" aria-label="Publications">
         <div class="publication-list">
+          <article class="publication-row" data-topics="vision">
+            <a class="publication-thumb" href="https://openvo.github.io/" target="_blank" rel="noreferrer" aria-label="OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness webpage"><img src="https://openvo.github.io/assets/teaser.png" alt="OpenVO estimating real-world-scale ego-motion from monocular driving video" loading="lazy" /></a>
+            <div class="publication-copy">
+              <h2>OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness</h2>
+              <p class="publication-authors">Phuc D.A. Nguyen, Anh N. Nhu, Ming C. Lin</p>
+              <p class="publication-meta">CVPR 2026</p>
+              <p class="publication-links"><a href="https://openvo.github.io/" target="_blank" rel="noreferrer">Webpage</a> , <a href="https://arxiv.org/abs/2602.19035" target="_blank" rel="noreferrer">Paper</a> , <a href="https://github.com/PhucNDA/OpenVO" target="_blank" rel="noreferrer">Code</a></p>
+            </div>
+          </article>
+
+          <article class="publication-row" data-topics="navigation">
+            <a class="publication-thumb" href="https://gamma.umd.edu/researchdirections/embodied/fmdeploy" target="_blank" rel="noreferrer" aria-label="Deploying Foundation Models for Embodied Navigation webpage"><img src="https://obj.umiacs.umd.edu/gamma1/isrr_taxonomy.png" alt="Taxonomy of foundation-model deployment challenges for embodied navigation" loading="lazy" /></a>
+            <div class="publication-copy">
+              <h2>Deploying Foundation Models for Embodied Navigation</h2>
+              <p class="publication-authors">Vishnu Sashank Dorbala, Dinesh Manocha</p>
+              <p class="publication-meta">ISRR 2026</p>
+              <p class="publication-links"><a href="https://gamma.umd.edu/researchdirections/embodied/fmdeploy" target="_blank" rel="noreferrer">Webpage</a> , <a href="https://gamma.umd.edu/researchdirections/embodied/isrr26.pdf" target="_blank" rel="noreferrer">Paper</a></p>
+            </div>
+          </article>
+
+          <article class="publication-row" data-topics="navigation">
+            <a class="publication-thumb" href="https://gamma.umd.edu/researchdirections/embodied/pobjectnav-v2" target="_blank" rel="noreferrer" aria-label="TAP: Transit Aware Planning for Portable Target Finding on Learning-Based Embodied Agents webpage"><img src="https://obj.umiacs.umd.edu/gamma1/pobjectnav2_cover.png" alt="Portable-target navigation with dynamic object maps" loading="lazy" /></a>
+            <div class="publication-copy">
+              <h2>TAP: Transit Aware Planning for Portable Target Finding on Learning-Based Embodied Agents</h2>
+              <p class="publication-authors">Vishnu Sashank Dorbala, Dinesh Manocha</p>
+              <p class="publication-meta">arXiv 2026</p>
+              <p class="publication-links"><a href="https://gamma.umd.edu/researchdirections/embodied/pobjectnav-v2" target="_blank" rel="noreferrer">Webpage</a> , <a href="https://gamma.umd.edu/researchdirections/embodied/tapdom.pdf" target="_blank" rel="noreferrer">Paper</a></p>
+            </div>
+          </article>
+
+          <article class="publication-row" data-topics="navigation">
+            <a class="publication-thumb" href="https://prakharmishra27.github.io/MorFiC/" target="_blank" rel="noreferrer" aria-label="MorFiC: Fixing Value Miscalibration for Zero-Shot Quadruped Transfer webpage"><img src="https://prakharmishra27.github.io/MorFiC/media/figures/morphology-collage.png" alt="Multiple quadruped robot morphologies used for zero-shot transfer" loading="lazy" /></a>
+            <div class="publication-copy">
+              <h2>MorFiC: Fixing Value Miscalibration for Zero-Shot Quadruped Transfer</h2>
+              <p class="publication-authors">Prakhar Mishra, Amir Hossain Raj, Xuesu Xiao, Dinesh Manocha</p>
+              <p class="publication-meta">CoRL 2026</p>
+              <p class="publication-links"><a href="https://prakharmishra27.github.io/MorFiC/" target="_blank" rel="noreferrer">Webpage</a> , <a href="https://arxiv.org/abs/2603.14554" target="_blank" rel="noreferrer">Paper</a> , <a href="https://github.com/prakharmishra27/morfic-rl" target="_blank" rel="noreferrer">Code</a></p>
+            </div>
+          </article>
+
           <article class="publication-row" data-topics="vision">
             <a class="publication-thumb" href="https://humathe.github.io/sonoworld/" target="_blank" rel="noreferrer" aria-label="SonoWorld: From One Image to a 3D Audio-Visual Scene webpage"><img src="assets/papers/sonoworld.jpg" alt="" loading="lazy" /></a>
             <div class="publication-copy">
@@ -2256,10 +2300,11 @@
           </article>
         </div>
       </section>
+
     </main>
 
     <footer><span>© <span data-year></span> GAMMA Robotics · University of Maryland</span><span class="footer-links"><a href="https://gamma.umd.edu/" target="_blank" rel="noreferrer">Old GAMMA website (gamma.umd.edu)</a> · <a href="mailto:dmanocha@umd.edu">Contact</a></span></footer>
-    <script src="script.js?v=6"></script>
+    <script src="script.js?v=9"></script>
   </body>
 </html>
 
